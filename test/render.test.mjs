@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import { aggregate } from "../src/collect.mjs";
-import { attachSeats } from "../src/collect.mjs";
+import { attachSeats, parseSeats } from "../src/collect.mjs";
 import { cardSvg, esc, inkOn, lockedBadgeUrl, medalSvg, plateSvg, renderSite, seatName, slug } from "../src/render.mjs";
 
 const prs = JSON.parse(readFileSync(new URL("./fixtures/prs.json", import.meta.url), "utf8"));
@@ -91,4 +91,21 @@ test("without a seat the page shows the bot's locked badge and the claim steps",
   assert.ok(page.includes(esc(lockedBadgeUrl(99))));
   assert.match(lockedBadgeUrl(99), /label=%F0%9F%94%92%20FOUNDING%20CONTRIBUTOR&message=99%20of%20100%20left&color=06b6d4&labelColor=07080f/);
   assert.match(lockedBadgeUrl(0), /FLISK%20CONTRIBUTOR&message=claim%20yours/);
+});
+
+test("regular contributor seats never increase the founding seat total", () => {
+  const full = Array.from({ length: 101 }, (_, i) => ({ n: i + 1, github: `user-${i + 1}` }));
+  const pages = renderSite({ people, repos: [], seats: full });
+  assert.match(pages["index.html"], /Founding seats<\/div><div class="num">100<span[^>]*> \/ 100/);
+  assert.match(pages["ada-renamed-101/index.html"], /Claim your numbered Flisk Contributor badge/);
+});
+
+test("revoked numbers stay taken without displaying a badge for the former holder", () => {
+  const entries = [{ n: 1, github: "grace" }, { n: 2, github: "ada-renamed", revoked: true }];
+  const registrySeats = parseSeats(`<!-- flisk:founding-data ${JSON.stringify(entries)} -->`);
+  const contributors = attachSeats(aggregate(prs, { maintainers: ["odykyi"], optout: [303] }), registrySeats);
+  const pages = renderSite({ people: contributors, repos: [], seats: registrySeats, totalSeats: 2 });
+  assert.match(pages["index.html"], /Founding seats<\/div><div class="num">2<span[^>]*> \/ 2/);
+  assert.match(pages["ada-renamed-101/index.html"], /Claim your numbered Flisk Contributor badge/);
+  assert.equal(contributors.find((p) => p.login === "ada-renamed").seat, null);
 });

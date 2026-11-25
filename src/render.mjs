@@ -367,7 +367,7 @@ export function notFoundPage() {
 
 // Every file the site needs, as { path: contents }. build.mjs writes them to disk.
 export function renderSite({ people, repos, updated, seats = [], totalSeats = 100 }) {
-  const claimed = seats.length;
+  const claimed = seats.filter(({ n }) => n > 0 && n <= totalSeats).length;
   const seatsLeft = seats.length ? Math.max(totalSeats - claimed, 0) : null;
   const files = {
     "index.html": indexPage(people, { updated, repos, claimed, totalSeats }),

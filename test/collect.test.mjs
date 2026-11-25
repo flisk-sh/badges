@@ -116,7 +116,7 @@ test("mergedPullRequests follows the cursor and stops on a stuck one", async () 
   await assert.rejects(githubClient({ token: "t", fetch: stuck.fetch }).mergedPullRequests("o", "r"), /did not advance/);
 });
 
-test("seats come from the registry issue, without Discord ids or revoked seats", async () => {
+test("the registry keeps seat numbers but omits Discord ids and revoked logins", async () => {
   const { attachSeats, parseSeats } = await import("../src/collect.mjs");
   const body = `<!-- flisk:founding-registry -->\ntext\n<!-- flisk:founding-data ${JSON.stringify([
     { n: 1, github: "Grace", discord: "773172081096917023", tier: "Veteran" },
@@ -124,7 +124,7 @@ test("seats come from the registry issue, without Discord ids or revoked seats",
     { n: 3, github: null },
   ])} -->`;
   const seats = parseSeats(body);
-  assert.deepEqual(seats, [{ n: 1, github: "Grace" }]);
+  assert.deepEqual(seats, [{ n: 1, github: "Grace" }, { n: 2 }, { n: 3 }]);
   assert.deepEqual(parseSeats("no registry here"), []);
   const people = attachSeats(aggregate(prs, settings), seats);
   assert.equal(people.find((p) => p.login === "grace").seat, 1, "logins match without case");

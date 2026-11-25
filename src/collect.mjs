@@ -152,18 +152,18 @@ export function aggregate(prs, { maintainers = [], optout = [], latest = 5 } = {
     .sort((a, b) => b.prs - a.prs || a.first.localeCompare(b.first) || a.login.localeCompare(b.login));
 }
 
-// Seats come from <!-- flisk:founding-data [...] --> in the registry issue. Only the seat
-// number and login are kept: the registry also holds Discord ids, which stay out of the site.
+// Keep revoked numbers for the founding seat count, but only keep active logins.
+// The Discord ids in the registry stay out of the site.
 export function parseSeats(body) {
   const match = /<!-- flisk:founding-data (.*?) -->/s.exec(body);
   if (!match) return [];
   return JSON.parse(match[1])
-    .filter((seat) => seat.github && !seat.revoked && Number.isInteger(seat.n))
-    .map((seat) => ({ n: seat.n, github: seat.github }));
+    .filter((seat) => Number.isInteger(seat.n))
+    .map((seat) => seat.github && !seat.revoked ? { n: seat.n, github: seat.github } : { n: seat.n });
 }
 
 export function attachSeats(people, seats) {
-  const byLogin = new Map(seats.map((seat) => [seat.github.toLowerCase(), seat.n]));
+  const byLogin = new Map(seats.filter((seat) => seat.github).map((seat) => [seat.github.toLowerCase(), seat.n]));
   return people.map((p) => ({ ...p, seat: byLogin.get(p.login.toLowerCase()) ?? null }));
 }
 
