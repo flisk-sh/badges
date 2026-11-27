@@ -1,4 +1,4 @@
-// Tiers and belts, kept in step with flisk-sh/flisk scripts/discord-contributor-levels.mjs,
+// Tiers and belts, kept in step with flisk-sh/flisk-cli scripts/discord-contributor-levels.mjs,
 // so a badge here and a Discord role there always agree. test/levels.test.mjs checks the copy.
 
 // Lowest first. A tier comes from merged PRs.

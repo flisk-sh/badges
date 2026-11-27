@@ -48,6 +48,8 @@ if (opts.fixture) {
     org,
     ...settings,
     registry: config.registry,
+    record: await readJson(config.record),
+    skipRepos: config.skipRepos,
     log: (line) => console.log(line),
   });
 }

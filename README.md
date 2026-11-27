@@ -17,6 +17,12 @@ Live at **https://badges.flisk.si**. Each person has a page at `https://badges.f
 
 Counted: merged PRs by people, not bots, whose author is not an owner or member of the org and is not a maintainer named in `config.json`.
 
+## The saved record
+
+The `flisk-sh/flisk` repository can no longer be read, so `records/2026-11-24.json` keeps the site as last published (its `data.json`). A build adds only PRs merged after that record's build time to it, so nothing is counted twice. Repositories in `skipRepos` are not read. Old merges in the blocked repository stay listed, though their links no longer open. PRs merged there after the record was built are not counted.
+
+Until `registry.issue` in `config.json` is set, the seats come from the saved record. Set it to the new seat list issue in `flisk-sh/flisk-cli`. From then on, a list that cannot be read, or that lacks a saved seat, stops the build and the last published site stays up. If you revoke a seat, keep its number in the list.
+
 ## Run it locally
 
 ```bash

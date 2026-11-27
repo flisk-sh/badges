@@ -1,5 +1,7 @@
 {
   "org": "flisk-sh",
   "maintainers": ["kburym", "odykyi"],
-  "registry": { "repo": "flisk", "issue": 3518, "seats": 100 }
+  "registry": { "repo": "flisk-cli", "issue": null, "seats": 100 },
+  "record": "./records/2026-11-24.json",
+  "skipRepos": ["flisk"]
 }

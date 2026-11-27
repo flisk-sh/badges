@@ -33,10 +33,10 @@ test("belts follow the kyu bands", () => {
   assert.equal(beltFor(""), null);
 });
 
-// The Discord roles in flisk-sh/flisk come from the same numbers. If they change there,
+// The Discord roles in flisk-sh/flisk-cli come from the same numbers. If they change there,
 // this fails, so the badge and the Discord role never disagree. Skipped when offline.
-test("tiers and belts match flisk-sh/flisk", async (t) => {
-  const url = "https://raw.githubusercontent.com/flisk-sh/flisk/main/scripts/discord-contributor-levels.mjs";
+test("tiers and belts match flisk-sh/flisk-cli", async (t) => {
+  const url = "https://raw.githubusercontent.com/flisk-sh/flisk-cli/main/scripts/discord-contributor-levels.mjs";
   let source;
   try {
     const res = await fetch(url, { signal: AbortSignal.timeout(10_000) });
