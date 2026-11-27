@@ -171,6 +171,25 @@ test("newer merges add to the saved record without counting older ones twice", a
   assert.deepEqual(result.repos, ["chat", "flisk"]);
 });
 
+test("a renamed account keeps its saved seat, with or without a registry", async () => {
+  const renamed = { ...newPr(2, "2026-01-03T10:00:00Z"), author: { __typename: "User", login: "ada-new", databaseId: 101 } };
+  const takeover = { ...newPr(3, "2026-01-03T11:00:00Z"), author: { __typename: "User", login: "ada", databaseId: 999 } };
+  const mergedPullRequests = async () => [renamed, takeover];
+  const seatsOf = (result) => Object.fromEntries(result.people.map((p) => [p.login, p.seat]));
+  const expected = { "ada-new": 1, ada: null };
+
+  assert.deepEqual(seatsOf(await run({ mergedPullRequests })), expected);
+  for (const github of ["ada", "ada-new"]) {
+    const extra = { mergedPullRequests, seats: async () => [{ n: 1, github }] };
+    assert.deepEqual(seatsOf(await run(extra, { repo: "flisk-cli", issue: 7 })), expected);
+  }
+});
+
+test("a saved seat that the registry revoked is not restored by account id", async () => {
+  const result = await run({ seats: async () => [{ n: 1 }] }, { repo: "flisk-cli", issue: 7 });
+  assert.equal(result.people[0].seat, null);
+});
+
 test("opting out removes a saved person but keeps their seat number taken", async () => {
   const { addRecord, recordSeats } = await import("../src/collect.mjs");
   assert.deepEqual(addRecord(saved, [], { optout: [101] }), []);
