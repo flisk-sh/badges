@@ -131,26 +131,61 @@ test("the registry keeps seat numbers but omits Discord ids and revoked logins",
   assert.equal(people.find((p) => p.login === "ada-renamed").seat, null);
 });
 
-test("collect still builds when the registry cannot be read", async () => {
+const saved = {
+  updated: "2026-01-02 12:00 UTC",
+  repos: ["flisk"],
+  people: [
+    { login: "ada", id: 101, prs: 10, issues: 4, rank: "rank: 1 dan", first: "2025-12-01T00:00:00Z", repos: ["flisk"], merges: [], seat: 1 },
+  ],
+};
+const newPr = (number, mergedAt, repo = "chat") => ({
+  ...prs.find((pr) => pr.number === 1),
+  number,
+  mergedAt,
+  repo,
+  closingIssuesReferences: { nodes: [{ number: 9, repository: { nameWithOwner: "flisk-sh/chat" } }] },
+});
+const fakeClient = (extra = {}) => ({
+  repos: async () => ["chat", "flisk"],
+  mergedPullRequests: async (_, repo) => {
+    assert.notEqual(repo, "flisk", "a skipped repo is never read");
+    return [newPr(1, "2026-01-02T10:00:00Z"), newPr(2, "2026-01-03T10:00:00Z")];
+  },
+  ranks: async () => new Map([[9, "rank: 2 kyu"]]),
+  ...extra,
+});
+const run = async (extra, registry = { repo: "flisk-cli", issue: null }) => {
   const { collect } = await import("../src/collect.mjs");
-  const lines = [];
-  const client = {
-    seats: async () => {
-      throw new Error("answered 404");
-    },
-    repos: async () => ["flisk"],
-    mergedPullRequests: async () => [
-      {
-        ...prs.find((pr) => pr.number === 1),
-        closingIssuesReferences: { nodes: [{ number: 9, repository: { nameWithOwner: "flisk-sh/flisk" } }] },
-      },
-    ],
-    ranks: async () => new Map([[9, "rank: 2 kyu"]]),
-  };
-  const result = await collect({ client, org: "flisk-sh", ...settings, registry: { repo: "flisk", issue: 1 }, log: (l) => lines.push(l) });
-  assert.deepEqual(result.seats, []);
-  assert.ok(lines.some((l) => l.includes("seat registry")));
-  assert.equal(result.people.find((p) => p.login === "ada").rank, "rank: 2 kyu", "the rank comes from the label lookup");
+  return collect({ client: fakeClient(extra), org: "flisk-sh", ...settings, registry, record: saved, skipRepos: ["flisk"] });
+};
+
+test("newer merges add to the saved record without counting older ones twice", async () => {
+  const result = await run();
+  const [ada] = result.people;
+  assert.equal(ada.prs, 11);
+  assert.equal(ada.issues, 5);
+  assert.equal(ada.rank, "rank: 1 dan", "a rank never goes down");
+  assert.equal(ada.first, "2025-12-01T00:00:00Z");
+  assert.deepEqual(ada.repos, ["chat", "flisk"]);
+  assert.equal(ada.seat, 1);
+  assert.deepEqual(result.repos, ["chat", "flisk"]);
+});
+
+test("opting out removes a saved person but keeps their seat number taken", async () => {
+  const { addRecord, recordSeats } = await import("../src/collect.mjs");
+  assert.deepEqual(addRecord(saved, [], { optout: [101] }), []);
+  assert.deepEqual(recordSeats(saved, [101]), [{ n: 1 }]);
+});
+
+test("a configured registry that cannot be read, or lost a seat, stops the build", async () => {
+  const registry = { repo: "flisk-cli", issue: 7 };
+  await assert.rejects(run({ seats: async () => { throw new Error("answered 404"); } }, registry), /404/);
+  await assert.rejects(run({ seats: async () => [] }, registry), /incomplete/);
+  await assert.rejects(run({ seats: async () => [{ n: 2, github: "x" }] }, registry), /Missing saved seats: 1/);
+});
+
+test("another repo failing still stops the build", async () => {
+  await assert.rejects(run({ mergedPullRequests: async () => { throw new Error("bad gateway"); } }), /bad gateway/);
 });
 
 test("ranks maps each issue to its hardest rank label and skips other labels", async () => {

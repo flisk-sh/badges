@@ -3,6 +3,9 @@
 
 import { rankValue } from "./levels.mjs";
 
+const byName = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+const byRank = (a, b) => b.prs - a.prs || a.first.localeCompare(b.first) || a.login.localeCompare(b.login);
+
 const API = "https://api.github.com";
 
 // Closing issues are fetched as numbers only. Asking for their labels here would cost about
@@ -146,10 +149,10 @@ export function aggregate(prs, { maintainers = [], optout = [], latest = 5 } = {
   return [...people.values()]
     .map((p) => ({
       ...p,
-      repos: [...p.repos].sort((a, b) => (a < b ? -1 : a > b ? 1 : 0)),
+      repos: [...p.repos].sort(byName),
       merges: p.merges.sort((a, b) => b.mergedAt.localeCompare(a.mergedAt)).slice(0, latest),
     }))
-    .sort((a, b) => b.prs - a.prs || a.first.localeCompare(b.first) || a.login.localeCompare(b.login));
+    .sort(byRank);
 }
 
 // Keep revoked numbers for the founding seat count, but only keep active logins.
@@ -167,6 +170,51 @@ export function attachSeats(people, seats) {
   return people.map((p) => ({ ...p, seat: byLogin.get(p.login.toLowerCase()) ?? null }));
 }
 
+// The time a saved record was built, from its "2026-11-24 22:46 UTC" stamp.
+export function recordTime(record) {
+  const time = Date.parse(record.updated.replace(" UTC", "Z").replace(" ", "T"));
+  if (Number.isNaN(time)) throw new Error(`Saved record has no readable build time: ${record.updated}`);
+  return time;
+}
+
+// The seats shown when the record was built. A person who opted out keeps their number taken.
+export function recordSeats(record, optout = []) {
+  const hidden = new Set(optout.map(Number));
+  return record.people
+    .filter((p) => Number.isInteger(p.seat))
+    .map((p) => (hidden.has(p.id) ? { n: p.seat } : { n: p.seat, github: p.login }))
+    .sort((a, b) => a.n - b.n);
+}
+
+// Adds newer totals to a saved record. `people` must only count PRs merged after it was built.
+export function addRecord(record, people, { maintainers = [], optout = [], latest = 5 } = {}) {
+  const hidden = new Set(optout.map(Number));
+  const team = new Set(maintainers.map((m) => m.toLowerCase()));
+  const all = new Map(
+    record.people
+      .filter((p) => !hidden.has(p.id) && !team.has(p.login.toLowerCase()))
+      .map(({ login, id, prs, issues, rank, first, repos, merges }) => [id, { login, id, prs, issues, rank, first, repos, merges }]),
+  );
+  for (const p of people) {
+    const old = all.get(p.id);
+    if (!old) {
+      all.set(p.id, p);
+      continue;
+    }
+    all.set(p.id, {
+      login: p.login,
+      id: p.id,
+      prs: old.prs + p.prs,
+      issues: old.issues + p.issues,
+      rank: rankValue(p.rank ?? "") > rankValue(old.rank ?? "") ? p.rank : old.rank,
+      first: old.first < p.first ? old.first : p.first,
+      repos: [...new Set([...old.repos, ...p.repos])].sort(byName),
+      merges: [...p.merges, ...old.merges].sort((a, b) => b.mergedAt.localeCompare(a.mergedAt)).slice(0, latest),
+    });
+  }
+  return [...all.values()].sort(byRank);
+}
+
 // Puts each closing issue's rank label back on it, in the shape aggregate() reads.
 export function withRanks(prs, ranks) {
   return prs.map((pr) => ({
@@ -180,17 +228,20 @@ export function withRanks(prs, ranks) {
   }));
 }
 
-export async function collect({ client, org, maintainers, optout, registry, log = () => {} }) {
-  let seats = [];
-  if (registry) {
-    // The seats are a nicety: without them every page still builds, just without numbers.
-    try {
-      seats = await client.seats(org, registry.repo, registry.issue);
-    } catch (error) {
-      log(`Could not read the seat registry: ${String(error.message).replace(/[\r\n]+/g, " ")}`);
+export async function collect({ client, org, maintainers, optout, registry, record, skipRepos = [], log = () => {} }) {
+  // With no registry issue configured, the saved seats are shown. With one, any failure to
+  // read it stops the build, so the last published site stays instead of losing seats.
+  let seats = record ? recordSeats(record, optout) : [];
+  if (registry?.issue) {
+    const saved = seats;
+    seats = await client.seats(org, registry.repo, registry.issue);
+    const listed = new Set(seats.map((seat) => seat.n));
+    const missing = saved.filter((seat) => !listed.has(seat.n)).map((seat) => seat.n);
+    if (seats.length === 0 || missing.length > 0) {
+      throw new Error(`The seat registry is incomplete. Missing saved seats: ${missing.join(", ") || "all"}.`);
     }
   }
-  const repos = await client.repos(org);
+  const repos = (await client.repos(org)).filter((name) => !skipRepos.includes(name));
   const prs = [];
   const ranks = new Map();
   for (const repo of repos) {
@@ -200,7 +251,15 @@ export async function collect({ client, org, maintainers, optout, registry, log 
     log(`${repo}: ${merged.length} merged PRs, ${repoRanks.size} ranked issues`);
     prs.push(...merged);
   }
-  const ranked = withRanks(prs, ranks);
+  // Everything merged up to the record's build time is already counted in it.
+  const since = record ? recordTime(record) : -Infinity;
+  const newer = withRanks(prs.filter((pr) => Date.parse(pr.mergedAt) > since), ranks);
+  let people = aggregate(newer, { maintainers, optout });
+  if (record) people = addRecord(record, people, { maintainers, optout });
   if (client.cost) log(`GraphQL cost ${client.cost().points} points, ${client.cost().remaining} left this hour`);
-  return { repos, seats, people: attachSeats(aggregate(ranked, { maintainers, optout }), seats) };
+  return {
+    repos: record ? [...new Set([...record.repos, ...repos])].sort(byName) : repos,
+    seats,
+    people: attachSeats(people, seats),
+  };
 }

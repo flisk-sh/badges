@@ -1,0 +1,4940 @@
+{
+  "updated": "2026-11-24 22:46 UTC",
+  "repos": [
+    ".github",
+    "flisk-example",
+    "website",
+    "flisk-user-management",
+    "flisk-restaurant-example",
+    "flisk-erp-system",
+    "create-flisk",
+    "flisk-sh.github.io",
+    "releases",
+    "flisk-docker-compose-example",
+    "flisk-demo-animation",
+    "flisk",
+    "flisk-saas-starter",
+    "flisk-ecommerce-example",
+    "flisk-auth-queue-email-example",
+    "awesome-flisk-framework",
+    "flisk-skills",
+    "flisk-labs",
+    "flisk-import",
+    "flisk-thor-storefront",
+    "flisk-person-crud-example",
+    "fliskos",
+    "flisk-service-definitions",
+    "vercel-store",
+    "flisk-agent-stack",
+    "flisk-cli-starter",
+    "awesome-rea-flisk-cases",
+    "create-microservices",
+    "codeql-starlark",
+    "codeql-goose",
+    "codeql-lobster",
+    "flisk-template-vue",
+    "flisk-template-next-app",
+    "flisk-template-adonisjs",
+    "flisk-template-analog",
+    "flisk-template-bati",
+    "demos",
+    "flisk-emoji",
+    "flisk-stack",
+    "helpdock",
+    "command-comparer",
+    "comparer",
+    "md2html",
+    "roadmap",
+    "citable",
+    "flisk-template-launch",
+    "pages",
+    "readme-score",
+    "flisk-marketplaces",
+    "flisk-tools",
+    "live-preview",
+    "flisk-template-portal",
+    "flisk-model",
+    "flisk-inference",
+    "awesome-model-training",
+    "flisk-export",
+    "run-my-agents",
+    "flisk-task-starter",
+    "readme-diagram",
+    "homebrew-tap",
+    "scoop-bucket",
+    "flisk.si",
+    "gardener",
+    "fleet",
+    "chat",
+    "host",
+    "analytics",
+    "jobs",
+    "learn",
+    "grow",
+    "login",
+    "ranker",
+    "gel",
+    "cilytics",
+    "gel-e2e",
+    "bot",
+    "cfworker2browser",
+    "linux2wasm",
+    "github-organization-starter",
+    "brain",
+    "traces",
+    "failedci2claude",
+    "skill-news",
+    "badges",
+    "cogito",
+    "studio",
+    "sdd"
+  ],
+  "people": [
+    {
+      "login": "draarivpatel-ui",
+      "id": 287273626,
+      "prs": 265,
+      "issues": 211,
+      "rank": "rank: 4 kyu",
+      "first": "2026-11-09T13:53:53Z",
+      "repos": [
+        ".github",
+        "analytics",
+        "awesome-model-training",
+        "badges",
+        "bot",
+        "brain",
+        "cfworker2browser",
+        "citable",
+        "codeql-goose",
+        "codeql-starlark",
+        "cogito",
+        "create-flisk",
+        "create-microservices",
+        "demos",
+        "failedci2claude",
+        "fleet",
+        "flisk",
+        "flisk-auth-queue-email-example",
+        "flisk-cli-starter",
+        "flisk-docker-compose-example",
+        "flisk-ecommerce-example",
+        "flisk-emoji",
+        "flisk-export",
+        "flisk-import",
+        "flisk-inference",
+        "flisk-restaurant-example",
+        "flisk-saas-starter",
+        "flisk-service-definitions",
+        "flisk-skills",
+        "flisk-stack",
+        "flisk-template-adonisjs",
+        "flisk-template-portal",
+        "flisk-thor-storefront",
+        "flisk-tools",
+        "gardener",
+        "gel",
+        "grow",
+        "helpdock",
+        "host",
+        "jobs",
+        "learn",
+        "login",
+        "md2html",
+        "pages",
+        "ranker",
+        "readme-diagram",
+        "readme-score",
+        "scoop-bucket",
+        "skill-news",
+        "studio",
+        "traces",
+        "vercel-store"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4954,
+          "title": "refactor(cli): extract upgrade strategy modules",
+          "url": "https://github.com/flisk-sh/flisk/pull/4954",
+          "mergedAt": "2026-11-24T21:47:57Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5595,
+          "title": "test(cli): remove live doctor probes from project and envelope tests",
+          "url": "https://github.com/flisk-sh/flisk/pull/5595",
+          "mergedAt": "2026-11-24T21:20:20Z"
+        },
+        {
+          "repo": "studio",
+          "number": 32,
+          "title": "fix: fit photo watermarks inside resized images",
+          "url": "https://github.com/flisk-sh/studio/pull/32",
+          "mergedAt": "2026-11-24T20:00:03Z"
+        },
+        {
+          "repo": "flisk-emoji",
+          "number": 32,
+          "title": "fix: export PNGs to their published directories",
+          "url": "https://github.com/flisk-sh/flisk-emoji/pull/32",
+          "mergedAt": "2026-11-24T19:39:32Z"
+        },
+        {
+          "repo": "flisk-service-definitions",
+          "number": 12,
+          "title": "Preserve staged apps when a crawl import fails validation",
+          "url": "https://github.com/flisk-sh/flisk-service-definitions/pull/12",
+          "mergedAt": "2026-11-24T19:34:47Z"
+        }
+      ],
+      "seat": 12,
+      "tier": "Legend",
+      "belt": "Brown",
+      "page": "https://badges.flisk.si/draarivpatel-ui-287273626/"
+    },
+    {
+      "login": "joshuaallgaier2-cmd",
+      "id": 285511128,
+      "prs": 265,
+      "issues": 267,
+      "rank": "rank: 4 kyu",
+      "first": "2026-11-15T12:45:47Z",
+      "repos": [
+        "analytics",
+        "brain",
+        "chat",
+        "citable",
+        "codeql-lobster",
+        "comparer",
+        "demos",
+        "fleet",
+        "flisk",
+        "flisk-cli-starter",
+        "flisk-demo-animation",
+        "flisk-docker-compose-example",
+        "flisk-emoji",
+        "flisk-export",
+        "flisk-import",
+        "flisk-inference",
+        "flisk-marketplaces",
+        "flisk-model",
+        "flisk-sh.github.io",
+        "flisk-skills",
+        "flisk-template-adonisjs",
+        "flisk-template-analog",
+        "flisk-template-bati",
+        "flisk-template-next-app",
+        "flisk-template-portal",
+        "flisk-template-vue",
+        "flisk-tools",
+        "fliskos",
+        "gardener",
+        "gel",
+        "github-organization-starter",
+        "grow",
+        "host",
+        "jobs",
+        "learn",
+        "login",
+        "md2html",
+        "pages",
+        "ranker",
+        "readme-diagram",
+        "readme-score",
+        "releases"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5520,
+          "title": "fix(resource): refuse conflicting existing-resource re-runs (#5416)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5520",
+          "mergedAt": "2026-11-24T19:31:32Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5515,
+          "title": "fix(resource): share strict tsconfig and stop frontend emit",
+          "url": "https://github.com/flisk-sh/flisk/pull/5515",
+          "mergedAt": "2026-11-24T19:28:08Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5526,
+          "title": "fix(demo): report host install size and add demo --reset (#5344)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5526",
+          "mergedAt": "2026-11-24T19:25:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5521,
+          "title": "fix(project): anchor generic .tiltignore patterns to source paths (#5387)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5521",
+          "mergedAt": "2026-11-24T19:24:29Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5524,
+          "title": "feat(ui): show Tilt running status in the header",
+          "url": "https://github.com/flisk-sh/flisk/pull/5524",
+          "mergedAt": "2026-11-24T19:24:03Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Legend",
+      "belt": "Brown",
+      "page": "https://badges.flisk.si/joshuaallgaier2-cmd-285511128/"
+    },
+    {
+      "login": "AK-Lmn",
+      "id": 179229555,
+      "prs": 126,
+      "issues": 119,
+      "rank": "rank: 4 kyu",
+      "first": "2026-10-07T08:58:58Z",
+      "repos": [
+        "chat",
+        "flisk",
+        "flisk-emoji",
+        "flisk-export",
+        "flisk-labs",
+        "gel",
+        "live-preview",
+        "releases",
+        "run-my-agents"
+      ],
+      "merges": [
+        {
+          "repo": "chat",
+          "number": 428,
+          "title": "fix(ui): show Guest instead of internal anon id in chat list (#363)",
+          "url": "https://github.com/flisk-sh/chat/pull/428",
+          "mergedAt": "2026-11-24T20:29:09Z"
+        },
+        {
+          "repo": "flisk-labs",
+          "number": 64,
+          "title": "test(validate): assert validate-content exits non-zero on broken lab (#2)",
+          "url": "https://github.com/flisk-sh/flisk-labs/pull/64",
+          "mergedAt": "2026-11-24T19:26:48Z"
+        },
+        {
+          "repo": "chat",
+          "number": 425,
+          "title": "fix(security): redirect http requests to https with 301 (#177)",
+          "url": "https://github.com/flisk-sh/chat/pull/425",
+          "mergedAt": "2026-11-24T19:25:55Z"
+        },
+        {
+          "repo": "chat",
+          "number": 436,
+          "title": "fix(voice): re-request microphone permission on orb tap after refusal (#359)",
+          "url": "https://github.com/flisk-sh/chat/pull/436",
+          "mergedAt": "2026-11-24T19:23:54Z"
+        },
+        {
+          "repo": "gel",
+          "number": 111,
+          "title": "feat(guard): add model-deprecation guard (#56)",
+          "url": "https://github.com/flisk-sh/gel/pull/111",
+          "mergedAt": "2026-11-24T19:21:59Z"
+        }
+      ],
+      "seat": 3,
+      "tier": "Legend",
+      "belt": "Brown",
+      "page": "https://badges.flisk.si/ak-lmn-179229555/"
+    },
+    {
+      "login": "sunny-kavixo",
+      "id": 73680894,
+      "prs": 104,
+      "issues": 104,
+      "rank": "rank: 4 kyu",
+      "first": "2026-10-09T21:12:01Z",
+      "repos": [
+        "flisk",
+        "flisk-export",
+        "flisk-import",
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3672,
+          "title": "fix(models): preflight Docker Model Runner pulls with bounded retries",
+          "url": "https://github.com/flisk-sh/flisk/pull/3672",
+          "mergedAt": "2026-11-10T18:43:43Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3670,
+          "title": "test(e2e): cover BYO image health-check failure without curl",
+          "url": "https://github.com/flisk-sh/flisk/pull/3670",
+          "mergedAt": "2026-11-10T18:39:17Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3565,
+          "title": "perf(benchmarks): benchmark flisk up vs plain docker compose up on 3 sample stacks",
+          "url": "https://github.com/flisk-sh/flisk/pull/3565",
+          "mergedAt": "2026-11-10T10:18:46Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3566,
+          "title": "feat(examples): add FastAPI + Celery + Redis recipe (#3295)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3566",
+          "mergedAt": "2026-11-10T10:15:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3411,
+          "title": "feat(ui): improve keyboard help overlay and accessible status presentation",
+          "url": "https://github.com/flisk-sh/flisk/pull/3411",
+          "mergedAt": "2026-11-10T09:37:21Z"
+        }
+      ],
+      "seat": 10,
+      "tier": "Legend",
+      "belt": "Brown",
+      "page": "https://badges.flisk.si/sunny-kavixo-73680894/"
+    },
+    {
+      "login": "sb123sb123",
+      "id": 152394158,
+      "prs": 43,
+      "issues": 38,
+      "rank": "rank: 5 kyu",
+      "first": "2026-10-04T20:31:18Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 739,
+          "title": "fix(cli): share project-root errors in down, eject and logs",
+          "url": "https://github.com/flisk-sh/flisk/pull/739",
+          "mergedAt": "2026-10-08T08:26:48Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 747,
+          "title": "refactor(doctor): extract Starlark load checks",
+          "url": "https://github.com/flisk-sh/flisk/pull/747",
+          "mergedAt": "2026-10-08T08:18:34Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 742,
+          "title": "fix(cli): explain missing SDK manifest",
+          "url": "https://github.com/flisk-sh/flisk/pull/742",
+          "mergedAt": "2026-10-08T08:15:49Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 743,
+          "title": "fix(networks): resolve default service routes",
+          "url": "https://github.com/flisk-sh/flisk/pull/743",
+          "mergedAt": "2026-10-08T08:14:46Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 744,
+          "title": "fix(upgrade): stop unpinned GitHub fallback",
+          "url": "https://github.com/flisk-sh/flisk/pull/744",
+          "mergedAt": "2026-10-08T08:01:43Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Veteran",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/sb123sb123-152394158/"
+    },
+    {
+      "login": "yinbowen-dc",
+      "id": 65101280,
+      "prs": 43,
+      "issues": 43,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-17T12:04:00Z",
+      "repos": [
+        "flisk",
+        "gardener",
+        "ranker",
+        "readme-diagram"
+      ],
+      "merges": [
+        {
+          "repo": "readme-diagram",
+          "number": 21,
+          "title": "Add a skip link before site navigation",
+          "url": "https://github.com/flisk-sh/readme-diagram/pull/21",
+          "mergedAt": "2026-11-22T21:19:31Z"
+        },
+        {
+          "repo": "readme-diagram",
+          "number": 20,
+          "title": "Publish a cached llms.txt discovery page",
+          "url": "https://github.com/flisk-sh/readme-diagram/pull/20",
+          "mergedAt": "2026-11-22T21:18:51Z"
+        },
+        {
+          "repo": "ranker",
+          "number": 42,
+          "title": "Match mobile browser chrome to the page background",
+          "url": "https://github.com/flisk-sh/ranker/pull/42",
+          "mergedAt": "2026-11-22T21:18:11Z"
+        },
+        {
+          "repo": "readme-diagram",
+          "number": 19,
+          "title": "Return GET headers and no body for public HEAD requests",
+          "url": "https://github.com/flisk-sh/readme-diagram/pull/19",
+          "mergedAt": "2026-11-22T21:18:10Z"
+        },
+        {
+          "repo": "ranker",
+          "number": 41,
+          "title": "Give keyboard users a skip-to-content link",
+          "url": "https://github.com/flisk-sh/ranker/pull/41",
+          "mergedAt": "2026-11-22T21:17:47Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Veteran",
+      "belt": "White",
+      "page": "https://badges.flisk.si/yinbowen-dc-65101280/"
+    },
+    {
+      "login": "minutechreview",
+      "id": 141821420,
+      "prs": 35,
+      "issues": 35,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-09T15:56:20Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2708,
+          "title": "test(scripts): cover install-global.mjs with a stubbed npm",
+          "url": "https://github.com/flisk-sh/flisk/pull/2708",
+          "mergedAt": "2026-10-29T17:43:07Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2709,
+          "title": "test(cli): cover getContainerRuntimeStatus branches directly",
+          "url": "https://github.com/flisk-sh/flisk/pull/2709",
+          "mergedAt": "2026-10-29T17:31:32Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2707,
+          "title": "test(scripts): cover install-git-hooks.sh in a git checkout and outside one",
+          "url": "https://github.com/flisk-sh/flisk/pull/2707",
+          "mergedAt": "2026-10-29T17:17:42Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2653,
+          "title": "test(scripts): cover wait-for-npm-version.sh retry and timeout",
+          "url": "https://github.com/flisk-sh/flisk/pull/2653",
+          "mergedAt": "2026-10-28T19:19:25Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2655,
+          "title": "test(scripts): cover stage-npm-engine.sh layout, clean and missing source",
+          "url": "https://github.com/flisk-sh/flisk/pull/2655",
+          "mergedAt": "2026-10-28T19:18:17Z"
+        }
+      ],
+      "seat": 1,
+      "tier": "Veteran",
+      "belt": "White",
+      "page": "https://badges.flisk.si/minutechreview-141821420/"
+    },
+    {
+      "login": "yoreva-01",
+      "id": 195282707,
+      "prs": 33,
+      "issues": 32,
+      "rank": "rank: 5 kyu",
+      "first": "2026-10-18T15:10:36Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1889,
+          "title": "test(cli): unit tests for utils/service-manifest and service-config checks (#1558)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1889",
+          "mergedAt": "2026-10-24T15:09:44Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1883,
+          "title": "test(cli): unit tests for utils/base-image-eol and bun-requirement checks (#1574)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1883",
+          "mergedAt": "2026-10-24T15:09:21Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1892,
+          "title": "test(cli): unit tests for commands/doctor contract and JSON output (#1579)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1892",
+          "mergedAt": "2026-10-24T14:39:02Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1906,
+          "title": "test(cli): unit tests for utils/doctor-runtime and system probes (#1556)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1906",
+          "mergedAt": "2026-10-24T12:00:32Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1914,
+          "title": "chore: drop the unused deadline variable in pickReadyFrontend",
+          "url": "https://github.com/flisk-sh/flisk/pull/1914",
+          "mergedAt": "2026-10-24T11:40:41Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Veteran",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/yoreva-01-195282707/"
+    },
+    {
+      "login": "sanketpatel32",
+      "id": 77952740,
+      "prs": 30,
+      "issues": 32,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-22T19:38:23Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5290,
+          "title": "docs: backfill missing changelog releases and fix the (undefined) heading (#5282)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5290",
+          "mergedAt": "2026-11-22T22:00:01Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5324,
+          "title": "ci(bench): flisk-kiri shim retags image ids Kiri already has instead of reloading",
+          "url": "https://github.com/flisk-sh/flisk/pull/5324",
+          "mergedAt": "2026-11-22T21:59:16Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5292,
+          "title": "perf(up): build each service image once per start (#4237)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5292",
+          "mergedAt": "2026-11-22T21:55:09Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5293,
+          "title": "feat(resource): accept --local for worker, mcp and agent (#5277)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5293",
+          "mergedAt": "2026-11-22T21:52:18Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5326,
+          "title": "refactor(discovery): one service.json validation rule table + corpus contract test",
+          "url": "https://github.com/flisk-sh/flisk/pull/5326",
+          "mergedAt": "2026-11-22T21:50:55Z"
+        }
+      ],
+      "seat": 28,
+      "tier": "Veteran",
+      "belt": "White",
+      "page": "https://badges.flisk.si/sanketpatel32-77952740/"
+    },
+    {
+      "login": "dbdefault",
+      "id": 246079841,
+      "prs": 29,
+      "issues": 52,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-20T21:05:47Z",
+      "repos": [
+        "flisk",
+        "flisk-template-adonisjs",
+        "flisk-template-analog",
+        "flisk-template-bati",
+        "flisk-template-next-app",
+        "flisk-template-portal",
+        "flisk-template-vue"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-template-vue",
+          "number": 11,
+          "title": "fix: set webUi for host-root routing",
+          "url": "https://github.com/flisk-sh/flisk-template-vue/pull/11",
+          "mergedAt": "2026-11-16T01:10:55Z"
+        },
+        {
+          "repo": "flisk-template-analog",
+          "number": 8,
+          "title": "fix: set webUi for host-root routing",
+          "url": "https://github.com/flisk-sh/flisk-template-analog/pull/8",
+          "mergedAt": "2026-11-16T01:10:50Z"
+        },
+        {
+          "repo": "flisk-template-bati",
+          "number": 9,
+          "title": "fix: set webUi for host-root routing",
+          "url": "https://github.com/flisk-sh/flisk-template-bati/pull/9",
+          "mergedAt": "2026-11-16T01:10:45Z"
+        },
+        {
+          "repo": "flisk-template-next-app",
+          "number": 10,
+          "title": "fix: set webUi for host-root routing",
+          "url": "https://github.com/flisk-sh/flisk-template-next-app/pull/10",
+          "mergedAt": "2026-11-16T01:10:39Z"
+        },
+        {
+          "repo": "flisk-template-vue",
+          "number": 10,
+          "title": "docs: clarify README registration for shipped service.json",
+          "url": "https://github.com/flisk-sh/flisk-template-vue/pull/10",
+          "mergedAt": "2026-11-16T01:06:14Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Core",
+      "belt": "White",
+      "page": "https://badges.flisk.si/dbdefault-246079841/"
+    },
+    {
+      "login": "bfs2021",
+      "id": 101915083,
+      "prs": 18,
+      "issues": 17,
+      "rank": "rank: 7 kyu",
+      "first": "2026-11-02T01:27:52Z",
+      "repos": [
+        "citable",
+        "fleet",
+        "flisk",
+        "flisk-export",
+        "flisk-import",
+        "flisk-skills",
+        "live-preview",
+        "login",
+        "ranker",
+        "website"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-export",
+          "number": 24,
+          "title": "fix(cli): exit 0 when an export would write an identical file",
+          "url": "https://github.com/flisk-sh/flisk-export/pull/24",
+          "mergedAt": "2026-11-16T10:18:14Z"
+        },
+        {
+          "repo": "flisk-import",
+          "number": 98,
+          "title": "fix(compose): report an unparseable root Compose file as an error",
+          "url": "https://github.com/flisk-sh/flisk-import/pull/98",
+          "mergedAt": "2026-11-16T10:18:08Z"
+        },
+        {
+          "repo": "ranker",
+          "number": 10,
+          "title": "fix(api): reject unknown ?period= values and echo the period on each row",
+          "url": "https://github.com/flisk-sh/ranker/pull/10",
+          "mergedAt": "2026-11-16T10:17:55Z"
+        },
+        {
+          "repo": "login",
+          "number": 8,
+          "title": "fix(login): serve a favicon and declare it on both pages",
+          "url": "https://github.com/flisk-sh/login/pull/8",
+          "mergedAt": "2026-11-16T01:23:40Z"
+        },
+        {
+          "repo": "flisk-skills",
+          "number": 40,
+          "title": "fix(readme): point skills.sh badge and link at the indexed name, and check README links in CI",
+          "url": "https://github.com/flisk-sh/flisk-skills/pull/40",
+          "mergedAt": "2026-11-16T00:57:10Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Core",
+      "belt": "White",
+      "page": "https://badges.flisk.si/bfs2021-101915083/"
+    },
+    {
+      "login": "Delfi2007",
+      "id": 190155483,
+      "prs": 14,
+      "issues": 14,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-09T06:10:44Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 962,
+          "title": "refactor: use template literals in ui.tsx createHelpHint",
+          "url": "https://github.com/flisk-sh/flisk/pull/962",
+          "mergedAt": "2026-10-09T09:50:38Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 963,
+          "title": "refactor: remove three unused locals in config, networks and ui",
+          "url": "https://github.com/flisk-sh/flisk/pull/963",
+          "mergedAt": "2026-10-09T09:49:39Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 969,
+          "title": "refactor(ui): add sectionTitle helper for the tab headings",
+          "url": "https://github.com/flisk-sh/flisk/pull/969",
+          "mergedAt": "2026-10-09T09:47:41Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 961,
+          "title": "refactor: replace forEach with for...of in up.ts and errors.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/961",
+          "mergedAt": "2026-10-09T09:37:54Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 964,
+          "title": "fix(ts): satisfy noUncheckedIndexedAccess in suggestions and ui-keymap",
+          "url": "https://github.com/flisk-sh/flisk/pull/964",
+          "mergedAt": "2026-10-09T09:28:34Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/delfi2007-190155483/"
+    },
+    {
+      "login": "Ghifariezra",
+      "id": 127650295,
+      "prs": 13,
+      "issues": 10,
+      "rank": "rank: 5 kyu",
+      "first": "2026-10-12T09:31:42Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3033,
+          "title": "feat(cli): enforce repository-pinned version across commands",
+          "url": "https://github.com/flisk-sh/flisk/pull/3033",
+          "mergedAt": "2026-11-01T23:07:23Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2951,
+          "title": "feat(cli): add repository-pinned version evaluator",
+          "url": "https://github.com/flisk-sh/flisk/pull/2951",
+          "mergedAt": "2026-11-01T17:43:14Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1900,
+          "title": "docs(openspec): propose pinned TDK CLI version (#1761)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1900",
+          "mergedAt": "2026-10-24T14:38:36Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1871,
+          "title": " test(cli): cover host port planning for concurrent projects",
+          "url": "https://github.com/flisk-sh/flisk/pull/1871",
+          "mergedAt": "2026-10-22T10:14:14Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1858,
+          "title": "test: add integration test for flisk demo fixed directory behavior",
+          "url": "https://github.com/flisk-sh/flisk/pull/1858",
+          "mergedAt": "2026-10-22T08:01:23Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/ghifariezra-127650295/"
+    },
+    {
+      "login": "aazminu",
+      "id": 203570326,
+      "prs": 13,
+      "issues": 22,
+      "rank": "rank: 6 kyu",
+      "first": "2026-10-18T13:25:46Z",
+      "repos": [
+        "flisk",
+        "flisk-import"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1681,
+          "title": "fix(cli): include file path and parse reason when .tdk/project.json is malformed (#1521)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1681",
+          "mergedAt": "2026-10-21T00:10:41Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1685,
+          "title": "fix(cli): wrap malformed service.json parse in TdkError during resource registration (#1514)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1685",
+          "mergedAt": "2026-10-21T00:09:36Z"
+        },
+        {
+          "repo": "flisk-import",
+          "number": 45,
+          "title": "fix: read scheme-less healthcheck URLs and clarify assumed path note (#30)",
+          "url": "https://github.com/flisk-sh/flisk-import/pull/45",
+          "mergedAt": "2026-10-20T13:53:04Z"
+        },
+        {
+          "repo": "flisk-import",
+          "number": 46,
+          "title": "fix: report non-numeric EXPOSE instead of dropping it silently (#15, #18)",
+          "url": "https://github.com/flisk-sh/flisk-import/pull/46",
+          "mergedAt": "2026-10-20T13:51:56Z"
+        },
+        {
+          "repo": "flisk-import",
+          "number": 48,
+          "title": "fix: exit 2 with message on declined or closed prompt and document staged detectors (#32, #37)",
+          "url": "https://github.com/flisk-sh/flisk-import/pull/48",
+          "mergedAt": "2026-10-20T13:51:33Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/aazminu-203570326/"
+    },
+    {
+      "login": "daocuong11",
+      "id": 29220969,
+      "prs": 12,
+      "issues": 11,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-17T13:30:44Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5359,
+          "title": "fix(doctor): stop offering a Verdaccio start command that fails on missing networks (#5315)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5359",
+          "mergedAt": "2026-11-23T10:47:40Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5360,
+          "title": "fix(resource): let --stack satisfy the no-terminal gate when name, --type and --stack are all given (#5349)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5360",
+          "mergedAt": "2026-11-23T10:46:33Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5354,
+          "title": "fix(validation): refuse Flisk's own infrastructure names as stack names (#5345)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5354",
+          "mergedAt": "2026-11-23T10:42:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5351,
+          "title": "fix(resource): say a new database resource points at the shared PostgreSQL (#5335)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5351",
+          "mergedAt": "2026-11-23T10:37:08Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5350,
+          "title": "docs(cli): distinguish UNKNOWN_TOOL from COMMAND_FAILED for tool add",
+          "url": "https://github.com/flisk-sh/flisk/pull/5350",
+          "mergedAt": "2026-11-23T10:32:16Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/daocuong11-29220969/"
+    },
+    {
+      "login": "amritkang165",
+      "id": 209233348,
+      "prs": 11,
+      "issues": 10,
+      "rank": "rank: 5 kyu",
+      "first": "2026-10-02T23:50:53Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4648,
+          "title": "fix(scripts): reject Docker template drift and CRLF shebangs",
+          "url": "https://github.com/flisk-sh/flisk/pull/4648",
+          "mergedAt": "2026-11-18T23:12:15Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4321,
+          "title": "fix(resource): reject command names and require explicit non-interactive creation",
+          "url": "https://github.com/flisk-sh/flisk/pull/4321",
+          "mergedAt": "2026-11-16T01:11:22Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3997,
+          "title": "fix(resource): validate scaffold plans and registration reports",
+          "url": "https://github.com/flisk-sh/flisk/pull/3997",
+          "mergedAt": "2026-11-12T15:51:23Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3996,
+          "title": "feat(resource): preview scaffolding with --dry-run",
+          "url": "https://github.com/flisk-sh/flisk/pull/3996",
+          "mergedAt": "2026-11-12T14:26:03Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3828,
+          "title": "feat(stack): support moving and removing resource assignments",
+          "url": "https://github.com/flisk-sh/flisk/pull/3828",
+          "mergedAt": "2026-11-11T14:07:44Z"
+        }
+      ],
+      "seat": 6,
+      "tier": "Regular",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/amritkang165-209233348/"
+    },
+    {
+      "login": "jdotc1",
+      "id": 138259519,
+      "prs": 11,
+      "issues": 10,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-25T18:46:44Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3797,
+          "title": "fix(native): redact env secrets from process output and logs",
+          "url": "https://github.com/flisk-sh/flisk/pull/3797",
+          "mergedAt": "2026-11-11T12:02:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3793,
+          "title": "fix(up): secure and clean up temporary startup logs",
+          "url": "https://github.com/flisk-sh/flisk/pull/3793",
+          "mergedAt": "2026-11-11T09:27:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3557,
+          "title": "fix(rust): use safe port fallback for generated backend",
+          "url": "https://github.com/flisk-sh/flisk/pull/3557",
+          "mergedAt": "2026-11-10T09:32:18Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3571,
+          "title": "fix(node): return 400 for malformed request URLs without crashing",
+          "url": "https://github.com/flisk-sh/flisk/pull/3571",
+          "mergedAt": "2026-11-10T09:27:26Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3555,
+          "title": "fix(python): default to port 3000 for invalid PORT values",
+          "url": "https://github.com/flisk-sh/flisk/pull/3555",
+          "mergedAt": "2026-11-10T08:07:57Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/jdotc1-138259519/"
+    },
+    {
+      "login": "Golden007-prog",
+      "id": 140976895,
+      "prs": 10,
+      "issues": 10,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-18T12:31:37Z",
+      "repos": [
+        "awesome-flisk-framework",
+        "cfworker2browser",
+        "flisk",
+        "flisk-sh.github.io",
+        "gardener",
+        "gel",
+        "linux2wasm",
+        "live-preview",
+        "traces"
+      ],
+      "merges": [
+        {
+          "repo": "awesome-flisk-framework",
+          "number": 23,
+          "title": "ci: check README links and replace the missing benchmark article",
+          "url": "https://github.com/flisk-sh/awesome-flisk-framework/pull/23",
+          "mergedAt": "2026-11-22T22:13:59Z"
+        },
+        {
+          "repo": "live-preview",
+          "number": 13,
+          "title": "Reject API errors as quick-tunnel URLs",
+          "url": "https://github.com/flisk-sh/live-preview/pull/13",
+          "mergedAt": "2026-11-22T22:09:35Z"
+        },
+        {
+          "repo": "cfworker2browser",
+          "number": 4,
+          "title": "Count D1 script statements accurately",
+          "url": "https://github.com/flisk-sh/cfworker2browser/pull/4",
+          "mergedAt": "2026-11-22T21:15:49Z"
+        },
+        {
+          "repo": "linux2wasm",
+          "number": 4,
+          "title": "Report truncated pod output without splitting UTF-8",
+          "url": "https://github.com/flisk-sh/linux2wasm/pull/4",
+          "mergedAt": "2026-11-18T21:43:48Z"
+        },
+        {
+          "repo": "traces",
+          "number": 15,
+          "title": "Reject unsupported event kind filters",
+          "url": "https://github.com/flisk-sh/traces/pull/15",
+          "mergedAt": "2026-11-18T12:21:54Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/golden007-prog-140976895/"
+    },
+    {
+      "login": "sarankumar1325",
+      "id": 120080287,
+      "prs": 10,
+      "issues": 12,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T12:26:01Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4667,
+          "title": "ci(e2e): plan no legs for a pull request that merged while its run was queued",
+          "url": "https://github.com/flisk-sh/flisk/pull/4667",
+          "mergedAt": "2026-11-19T22:07:42Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4361,
+          "title": "fix(project): leave a pinned starter on its branch, not a detached HEAD",
+          "url": "https://github.com/flisk-sh/flisk/pull/4361",
+          "mergedAt": "2026-11-16T10:31:10Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4360,
+          "title": "fix(config): config verify reports a duplicate appName, as flisk up does",
+          "url": "https://github.com/flisk-sh/flisk/pull/4360",
+          "mergedAt": "2026-11-16T10:17:01Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3875,
+          "title": "fix(down): preview --prune-networks in --dry-run (text and JSON)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3875",
+          "mergedAt": "2026-11-11T22:49:08Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3877,
+          "title": "fix(json): list skipped service.json files in resources, stacks and status --json",
+          "url": "https://github.com/flisk-sh/flisk/pull/3877",
+          "mergedAt": "2026-11-11T22:08:10Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/sarankumar1325-120080287/"
+    },
+    {
+      "login": "CG-5228",
+      "id": 199360118,
+      "prs": 9,
+      "issues": 9,
+      "rank": "rank: 5 kyu",
+      "first": "2026-10-25T21:08:34Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2787,
+          "title": "test(ui): cover main paths of commands/ui.tsx (#2378)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2787",
+          "mergedAt": "2026-10-30T22:42:36Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2786,
+          "title": "test(scripts): add behaviour test for wsl2-demo.sh (#2367)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2786",
+          "mergedAt": "2026-10-30T22:36:46Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2771,
+          "title": "fix(cli): detect resources kept Disabled by Tilt after Tiltfile regeneration (#2700)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2771",
+          "mergedAt": "2026-10-30T21:39:33Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2748,
+          "title": "test(cli): cover networks command paths and Docker failure branches (#2382)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2748",
+          "mergedAt": "2026-10-30T10:12:02Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2712,
+          "title": "test(cli): cover normalizeResourceNames and stack command paths (#2377)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2712",
+          "mergedAt": "2026-10-29T17:41:07Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/cg-5228-199360118/"
+    },
+    {
+      "login": "ShahadatTest",
+      "id": 179203101,
+      "prs": 9,
+      "issues": 8,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-02T01:13:05Z",
+      "repos": [
+        "citable",
+        "fleet",
+        "flisk-tools",
+        "pages",
+        "readme-score",
+        "run-my-agents"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-tools",
+          "number": 28,
+          "title": "fix: keep the mobile GitHub sign-in control readable",
+          "url": "https://github.com/flisk-sh/flisk-tools/pull/28",
+          "mergedAt": "2026-11-16T00:51:49Z"
+        },
+        {
+          "repo": "citable",
+          "number": 39,
+          "title": "fix: cache public pages and hero assets",
+          "url": "https://github.com/flisk-sh/citable/pull/39",
+          "mergedAt": "2026-11-15T23:54:06Z"
+        },
+        {
+          "repo": "citable",
+          "number": 33,
+          "title": "fix: return HTTP 400 for refused API targets",
+          "url": "https://github.com/flisk-sh/citable/pull/33",
+          "mergedAt": "2026-11-15T23:35:02Z"
+        },
+        {
+          "repo": "citable",
+          "number": 38,
+          "title": "fix: enlarge mobile navigation and example targets",
+          "url": "https://github.com/flisk-sh/citable/pull/38",
+          "mergedAt": "2026-11-15T21:32:39Z"
+        },
+        {
+          "repo": "fleet",
+          "number": 69,
+          "title": "fix: kill the command process group on browser-pod timeout",
+          "url": "https://github.com/flisk-sh/fleet/pull/69",
+          "mergedAt": "2026-11-15T13:39:29Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/shahadattest-179203101/"
+    },
+    {
+      "login": "Huang-404-Q",
+      "id": 129407632,
+      "prs": 8,
+      "issues": 8,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-19T10:08:46Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1710,
+          "title": "test(cli): unit tests for commands/flag-contract and help-lists-commands (#1610)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1710",
+          "mergedAt": "2026-10-20T12:35:09Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1711,
+          "title": "test(cli): unit tests for utils/golden-build-tilt edge cases (#1608)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1711",
+          "mergedAt": "2026-10-20T12:31:19Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1709,
+          "title": "test(cli): unit tests for utils/agent-host and terminal-layout (#1611)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1709",
+          "mergedAt": "2026-10-20T11:59:57Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1708,
+          "title": "docs: add high-value unit test pattern examples (#1612)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1708",
+          "mergedAt": "2026-10-20T11:58:21Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1689,
+          "title": "docs(contributing): add guide for writing CLI unit tests (#1614)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1689",
+          "mergedAt": "2026-10-19T19:40:41Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/huang-404-q-129407632/"
+    },
+    {
+      "login": "Invincible1228",
+      "id": 151120944,
+      "prs": 7,
+      "issues": 7,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-26T13:28:18Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2668,
+          "title": "refactor(cli): remove nested ternaries across utils and commands (Fixes #819)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2668",
+          "mergedAt": "2026-10-28T20:03:00Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2665,
+          "title": "refactor(cli): fix noUncheckedIndexedAccess in config, networks, doctor, maintainers and cli (Fixes #804)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2665",
+          "mergedAt": "2026-10-28T19:39:17Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2666,
+          "title": "refactor(cli): guard regex capture groups in six utils (Fixes #802)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2666",
+          "mergedAt": "2026-10-28T19:35:20Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2577,
+          "title": "refactor(cli): replace 'as unknown as' casts in services.ts (Fixes #788)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2577",
+          "mergedAt": "2026-10-27T12:18:14Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2574,
+          "title": "test(cli): assert exact UNPINNED_DEPENDENCY_VERSIONS specifiers (Fixes #2373)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2574",
+          "mergedAt": "2026-10-27T02:30:48Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/invincible1228-151120944/"
+    },
+    {
+      "login": "jay23606",
+      "id": 4602056,
+      "prs": 6,
+      "issues": 6,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-11T14:59:19Z",
+      "repos": [
+        "flisk",
+        "fliskos",
+        "run-my-agents"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5137,
+          "title": "fix(export): skip the network hint when the exporter reports an input error",
+          "url": "https://github.com/flisk-sh/flisk/pull/5137",
+          "mergedAt": "2026-11-22T19:37:54Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4747,
+          "title": "docs: translate the e2e matrix guide into Japanese",
+          "url": "https://github.com/flisk-sh/flisk/pull/4747",
+          "mergedAt": "2026-11-19T22:42:19Z"
+        },
+        {
+          "repo": "run-my-agents",
+          "number": 75,
+          "title": "Canonicalise hook claim paths: symlinks, letter case, unmounted drives",
+          "url": "https://github.com/flisk-sh/run-my-agents/pull/75",
+          "mergedAt": "2026-11-07T18:04:42Z"
+        },
+        {
+          "repo": "run-my-agents",
+          "number": 31,
+          "title": "feat(board): open session folder in a terminal on Linux",
+          "url": "https://github.com/flisk-sh/run-my-agents/pull/31",
+          "mergedAt": "2026-11-02T01:41:24Z"
+        },
+        {
+          "repo": "fliskos",
+          "number": 123,
+          "title": "Mark the form field that failed validation",
+          "url": "https://github.com/flisk-sh/fliskos/pull/123",
+          "mergedAt": "2026-10-17T16:46:14Z"
+        }
+      ],
+      "seat": 5,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/jay23606-4602056/"
+    },
+    {
+      "login": "Rohith-Saran",
+      "id": 241495633,
+      "prs": 6,
+      "issues": 6,
+      "rank": "rank: 6 kyu",
+      "first": "2026-10-12T19:02:13Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1918,
+          "title": "docs(platform): decide native Windows runtime execution policy (#1757)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1918",
+          "mergedAt": "2026-10-24T14:37:11Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1701,
+          "title": "test(cli): raise line and branch coverage of commands/upgrade.ts ",
+          "url": "https://github.com/flisk-sh/flisk/pull/1701",
+          "mergedAt": "2026-10-19T18:22:55Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1113,
+          "title": "docs: troubleshoot L1 (base image) Docker build failures (#913)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1113",
+          "mergedAt": "2026-10-16T12:51:18Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1115,
+          "title": "docs: troubleshoot L2 (dependency layer) Docker build failures (#914)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1115",
+          "mergedAt": "2026-10-16T11:16:56Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1112,
+          "title": "fix(devcontainer): fix Bun feature repository and verify container setup (#1110)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1112",
+          "mergedAt": "2026-10-14T13:38:23Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/rohith-saran-241495633/"
+    },
+    {
+      "login": "Aaqibhafeezkhan",
+      "id": 292322256,
+      "prs": 6,
+      "issues": 6,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-02T05:18:10Z",
+      "repos": [
+        "flisk",
+        "run-my-agents"
+      ],
+      "merges": [
+        {
+          "repo": "run-my-agents",
+          "number": 432,
+          "title": "docs: add contributor setup and development guide",
+          "url": "https://github.com/flisk-sh/run-my-agents/pull/432",
+          "mergedAt": "2026-11-22T21:34:26Z"
+        },
+        {
+          "repo": "run-my-agents",
+          "number": 431,
+          "title": "test(hook): cover token limit model downgrade helpers",
+          "url": "https://github.com/flisk-sh/run-my-agents/pull/431",
+          "mergedAt": "2026-11-22T21:33:26Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4758,
+          "title": "fix(cli): emit one JSON result for up wait",
+          "url": "https://github.com/flisk-sh/flisk/pull/4758",
+          "mergedAt": "2026-11-22T19:40:35Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4743,
+          "title": "fix(open): fail promptly when no native run is active",
+          "url": "https://github.com/flisk-sh/flisk/pull/4743",
+          "mergedAt": "2026-11-19T00:15:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4742,
+          "title": "docs(schema): describe health check and ulimit fields",
+          "url": "https://github.com/flisk-sh/flisk/pull/4742",
+          "mergedAt": "2026-11-18T23:37:26Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/aaqibhafeezkhan-292322256/"
+    },
+    {
+      "login": "fate-lab",
+      "id": 208021491,
+      "prs": 6,
+      "issues": 6,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T14:13:55Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3989,
+          "title": "perf(release): dispatch the release after the candidate's gate passes",
+          "url": "https://github.com/flisk-sh/flisk/pull/3989",
+          "mergedAt": "2026-11-12T18:23:16Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3972,
+          "title": "ci: pin Node to 22.12.0 and run the release candidate on 24.15.0",
+          "url": "https://github.com/flisk-sh/flisk/pull/3972",
+          "mergedAt": "2026-11-11T22:57:48Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3951,
+          "title": "perf(release): set the flisk binary's mode in COPY so the CLI image stores it once",
+          "url": "https://github.com/flisk-sh/flisk/pull/3951",
+          "mergedAt": "2026-11-11T22:29:42Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3934,
+          "title": "test(e2e): give BY12's flisk up --wait time for a cold runner",
+          "url": "https://github.com/flisk-sh/flisk/pull/3934",
+          "mergedAt": "2026-11-11T20:00:06Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3838,
+          "title": "fix(up): print the unhealthy services' last log lines when flisk up --wait fails or times out",
+          "url": "https://github.com/flisk-sh/flisk/pull/3838",
+          "mergedAt": "2026-11-11T15:44:48Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/fate-lab-208021491/"
+    },
+    {
+      "login": "idi01-git",
+      "id": 187092821,
+      "prs": 5,
+      "issues": 5,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-25T22:44:22Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2472,
+          "title": "test: cover autogenerated file classification and empty service entries in utils/services.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/2472",
+          "mergedAt": "2026-10-25T23:53:05Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2468,
+          "title": "test: cover resources command empty results and uncovered branches",
+          "url": "https://github.com/flisk-sh/flisk/pull/2468",
+          "mergedAt": "2026-10-25T23:34:17Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2464,
+          "title": "test: cover completion output for unknown shell",
+          "url": "https://github.com/flisk-sh/flisk/pull/2464",
+          "mergedAt": "2026-10-25T23:23:25Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2463,
+          "title": "test: cover usesPrisma in utils/cold-preflight.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/2463",
+          "mergedAt": "2026-10-25T22:44:57Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2462,
+          "title": "test: add unit tests for fliskOs",
+          "url": "https://github.com/flisk-sh/flisk/pull/2462",
+          "mergedAt": "2026-10-25T22:44:22Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/idi01-git-187092821/"
+    },
+    {
+      "login": "nococn",
+      "id": 292372965,
+      "prs": 5,
+      "issues": 5,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-10T07:56:35Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3574,
+          "title": "docs(i18n): add Korean translation for contributor quick start",
+          "url": "https://github.com/flisk-sh/flisk/pull/3574",
+          "mergedAt": "2026-11-10T09:48:48Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3585,
+          "title": "docs(i18n): add Korean translation for honest tool comparison",
+          "url": "https://github.com/flisk-sh/flisk/pull/3585",
+          "mergedAt": "2026-11-10T09:38:35Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3586,
+          "title": "docs(i18n): add Korean translation for smoke check guide",
+          "url": "https://github.com/flisk-sh/flisk/pull/3586",
+          "mergedAt": "2026-11-10T09:27:26Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3575,
+          "title": "docs(i18n): add Korean translation for ui key bindings guide",
+          "url": "https://github.com/flisk-sh/flisk/pull/3575",
+          "mergedAt": "2026-11-10T08:06:58Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3572,
+          "title": "docs(i18n): add Korean translation for CLI unit tests guide",
+          "url": "https://github.com/flisk-sh/flisk/pull/3572",
+          "mergedAt": "2026-11-10T07:56:35Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Regular",
+      "belt": "White",
+      "page": "https://badges.flisk.si/nococn-292372965/"
+    },
+    {
+      "login": "CrowAleksito",
+      "id": 254756030,
+      "prs": 5,
+      "issues": 5,
+      "rank": "rank: 6 kyu",
+      "first": "2026-11-23T10:52:37Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5516,
+          "title": "fix(json): route premium overlay logs off stdout (#5496)",
+          "url": "https://github.com/flisk-sh/flisk/pull/5516",
+          "mergedAt": "2026-11-24T19:34:39Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5399,
+          "title": "test(rust): test generated Axum router over HTTP",
+          "url": "https://github.com/flisk-sh/flisk/pull/5399",
+          "mergedAt": "2026-11-24T19:21:31Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5385,
+          "title": "refactor(ui): remove nested ternaries in TUI components",
+          "url": "https://github.com/flisk-sh/flisk/pull/5385",
+          "mergedAt": "2026-11-23T14:53:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5339,
+          "title": "fix(projects): surface and prune registry-only stale records",
+          "url": "https://github.com/flisk-sh/flisk/pull/5339",
+          "mergedAt": "2026-11-23T10:59:53Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5338,
+          "title": "fix(config): explain .env as created once with generated secrets",
+          "url": "https://github.com/flisk-sh/flisk/pull/5338",
+          "mergedAt": "2026-11-23T10:52:37Z"
+        }
+      ],
+      "seat": 30,
+      "tier": "Regular",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/crowaleksito-254756030/"
+    },
+    {
+      "login": "tnalbant",
+      "id": 182372382,
+      "prs": 4,
+      "issues": 3,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-04T11:54:21Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4676,
+          "title": "fix(up): see the program after a leading cd in a setup job",
+          "url": "https://github.com/flisk-sh/flisk/pull/4676",
+          "mergedAt": "2026-11-21T22:29:14Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4671,
+          "title": "fix(status): claim no platform service in a local-process project",
+          "url": "https://github.com/flisk-sh/flisk/pull/4671",
+          "mergedAt": "2026-11-21T13:26:39Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4672,
+          "title": "fix(status,doctor): report no platform capability for local processes",
+          "url": "https://github.com/flisk-sh/flisk/pull/4672",
+          "mergedAt": "2026-11-19T22:31:14Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 482,
+          "title": "fix(ui): Esc at the top level shows a quit hint instead of exiting",
+          "url": "https://github.com/flisk-sh/flisk/pull/482",
+          "mergedAt": "2026-10-04T11:54:21Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/tnalbant-182372382/"
+    },
+    {
+      "login": "tamnguyen08",
+      "id": 115795399,
+      "prs": 4,
+      "issues": 4,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T00:18:43Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3790,
+          "title": "perf(projects): reuse Docker listings for stale records",
+          "url": "https://github.com/flisk-sh/flisk/pull/3790",
+          "mergedAt": "2026-11-11T09:27:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3787,
+          "title": "fix(cli): parse quoted Colima architecture",
+          "url": "https://github.com/flisk-sh/flisk/pull/3787",
+          "mergedAt": "2026-11-11T09:25:31Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3784,
+          "title": "fix(up): show failure reasons with --wait",
+          "url": "https://github.com/flisk-sh/flisk/pull/3784",
+          "mergedAt": "2026-11-11T09:21:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3772,
+          "title": "fix(doctor): parse Docker size units correctly",
+          "url": "https://github.com/flisk-sh/flisk/pull/3772",
+          "mergedAt": "2026-11-11T00:18:43Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/tamnguyen08-115795399/"
+    },
+    {
+      "login": "sarah-26-bit",
+      "id": 292487297,
+      "prs": 4,
+      "issues": 4,
+      "rank": null,
+      "first": "2026-11-12T21:18:58Z",
+      "repos": [
+        "website"
+      ],
+      "merges": [
+        {
+          "repo": "website",
+          "number": 255,
+          "title": "fix(home): replace header star count with verified project version",
+          "url": "https://github.com/flisk-sh/website/pull/255",
+          "mergedAt": "2026-11-24T19:15:23Z"
+        },
+        {
+          "repo": "website",
+          "number": 251,
+          "title": "fix(home): reduce homepage length to eight screens",
+          "url": "https://github.com/flisk-sh/website/pull/251",
+          "mergedAt": "2026-11-22T21:38:10Z"
+        },
+        {
+          "repo": "website",
+          "number": 217,
+          "title": "perf(home): serve responsive WebP picture for demo screenshot (#193)",
+          "url": "https://github.com/flisk-sh/website/pull/217",
+          "mergedAt": "2026-11-15T21:33:40Z"
+        },
+        {
+          "repo": "website",
+          "number": 153,
+          "title": "chore(site): enable Plausible click analytics (#124)",
+          "url": "https://github.com/flisk-sh/website/pull/153",
+          "mergedAt": "2026-11-12T21:18:58Z"
+        }
+      ],
+      "seat": 15,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/sarah-26-bit-292487297/"
+    },
+    {
+      "login": "Megh-Shah-08",
+      "id": 189580464,
+      "prs": 4,
+      "issues": 4,
+      "rank": null,
+      "first": "2026-11-15T10:28:38Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4274,
+          "title": "feat(json): add --json option to flisk version command",
+          "url": "https://github.com/flisk-sh/flisk/pull/4274",
+          "mergedAt": "2026-11-15T13:10:07Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4277,
+          "title": "chore(runtime): move refactoring plan from engine runtime to docs",
+          "url": "https://github.com/flisk-sh/flisk/pull/4277",
+          "mergedAt": "2026-11-15T12:58:32Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4275,
+          "title": "feat(tool): add flisk tool list subcommand",
+          "url": "https://github.com/flisk-sh/flisk/pull/4275",
+          "mergedAt": "2026-11-15T12:40:46Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4276,
+          "title": "feat(open): add --json option to flisk open command",
+          "url": "https://github.com/flisk-sh/flisk/pull/4276",
+          "mergedAt": "2026-11-15T10:28:38Z"
+        }
+      ],
+      "seat": 18,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/megh-shah-08-189580464/"
+    },
+    {
+      "login": "Shabari-K-S",
+      "id": 95925800,
+      "prs": 4,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-15T19:16:49Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4607,
+          "title": "fix(up): return UrlCheck array for urls in local-process up --json (#4586)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4607",
+          "mergedAt": "2026-11-17T14:28:33Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4442,
+          "title": "fix(cli): add positional hints and --json error routing for down and status (#4251)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4442",
+          "mergedAt": "2026-11-16T17:59:05Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4406,
+          "title": "feat(json): add --json to flisk upgrade --dry-run (#4262)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4406",
+          "mergedAt": "2026-11-16T15:14:20Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4306,
+          "title": "perf(up): require project root before pruning Docker images and build cache (#4282)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4306",
+          "mergedAt": "2026-11-15T19:16:49Z"
+        }
+      ],
+      "seat": 21,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/shabari-k-s-95925800/"
+    },
+    {
+      "login": "agenticsymphony-tech",
+      "id": 326739730,
+      "prs": 4,
+      "issues": 4,
+      "rank": null,
+      "first": "2026-11-16T15:08:48Z",
+      "repos": [
+        "analytics",
+        "flisk-demo-animation",
+        "flisk-thor-storefront",
+        "readme-score"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-demo-animation",
+          "number": 12,
+          "title": "Fix #11: a11y: the animated demo page has no prefers-reduced-motion rule, so people who turn motion off still get the f…",
+          "url": "https://github.com/flisk-sh/flisk-demo-animation/pull/12",
+          "mergedAt": "2026-11-22T21:26:05Z"
+        },
+        {
+          "repo": "analytics",
+          "number": 39,
+          "title": "Fix #36: fix(a11y): the analytics.flisk.si home page has no main landmark, so screen-reader users cannot jump to the co…",
+          "url": "https://github.com/flisk-sh/analytics/pull/39",
+          "mergedAt": "2026-11-16T15:12:08Z"
+        },
+        {
+          "repo": "flisk-thor-storefront",
+          "number": 22,
+          "title": "Fix #20: docs(readme): `FLISK_HTTP_PORT` and `FLISK_HTTPS_PORT` are in .env.example but not in the README, and the prin…",
+          "url": "https://github.com/flisk-sh/flisk-thor-storefront/pull/22",
+          "mergedAt": "2026-11-16T15:08:56Z"
+        },
+        {
+          "repo": "readme-score",
+          "number": 58,
+          "title": "Fix #54: perf(cache): cache /robots.txt on readme.flisk.si, it is served with no Cache-Control",
+          "url": "https://github.com/flisk-sh/readme-score/pull/58",
+          "mergedAt": "2026-11-16T15:08:48Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/agenticsymphony-tech-326739730/"
+    },
+    {
+      "login": "tharunsridhar",
+      "id": 33812199,
+      "prs": 4,
+      "issues": 4,
+      "rank": "rank: 6 kyu",
+      "first": "2026-11-19T21:52:31Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4752,
+          "title": "feat(templates): langgraph template with interrupt/resume, a Postgres checkpointer and an idempotent side effect",
+          "url": "https://github.com/flisk-sh/flisk/pull/4752",
+          "mergedAt": "2026-11-19T22:41:29Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4748,
+          "title": "feat(mcp): status and logs tools take unhealthy, and status takes stack",
+          "url": "https://github.com/flisk-sh/flisk/pull/4748",
+          "mergedAt": "2026-11-19T22:16:16Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4751,
+          "title": "feat(tool): Qdrant MCP memory recipe, OpenAPI-to-MCP gateway entry and a policy example",
+          "url": "https://github.com/flisk-sh/flisk/pull/4751",
+          "mergedAt": "2026-11-19T22:11:57Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4754,
+          "title": "fix(native): keep a service's output and stop its whole process tree on Windows",
+          "url": "https://github.com/flisk-sh/flisk/pull/4754",
+          "mergedAt": "2026-11-19T21:52:31Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/tharunsridhar-33812199/"
+    },
+    {
+      "login": "xiehuanyi",
+      "id": 74809554,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 6 kyu",
+      "first": "2026-10-04T19:24:07Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 645,
+          "title": "feat(ui): add paged keyboard navigation for long lists",
+          "url": "https://github.com/flisk-sh/flisk/pull/645",
+          "mergedAt": "2026-10-06T21:50:44Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 536,
+          "title": "fix(ui): suggest existing commands in empty state",
+          "url": "https://github.com/flisk-sh/flisk/pull/536",
+          "mergedAt": "2026-10-04T19:42:42Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 530,
+          "title": "docs: explain issue labels and add documentation form",
+          "url": "https://github.com/flisk-sh/flisk/pull/530",
+          "mergedAt": "2026-10-04T19:24:07Z"
+        }
+      ],
+      "seat": 2,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/xiehuanyi-74809554/"
+    },
+    {
+      "login": "NimoCao",
+      "id": 47976653,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-08T21:40:56Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 897,
+          "title": "refactor: constants for \"bring-your-own\" and \"database-management\"",
+          "url": "https://github.com/flisk-sh/flisk/pull/897",
+          "mergedAt": "2026-10-08T22:27:02Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 898,
+          "title": "refactor: constants for the .tiltignore and service.json file names",
+          "url": "https://github.com/flisk-sh/flisk/pull/898",
+          "mergedAt": "2026-10-08T22:15:33Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 896,
+          "title": "refactor: constant for the \"Container Runtime\" doctor check name",
+          "url": "https://github.com/flisk-sh/flisk/pull/896",
+          "mergedAt": "2026-10-08T21:40:56Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/nimocao-47976653/"
+    },
+    {
+      "login": "KeuqS",
+      "id": 50778230,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 6 kyu",
+      "first": "2026-10-12T11:01:25Z",
+      "repos": [
+        "flisk",
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "fliskos",
+          "number": 104,
+          "title": "fix(ui): keep error notices visible until dismissed",
+          "url": "https://github.com/flisk-sh/fliskos/pull/104",
+          "mergedAt": "2026-10-13T16:08:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1106,
+          "title": "docs: add service.json field reference (#100)",
+          "url": "https://github.com/flisk-sh/flisk/pull/1106",
+          "mergedAt": "2026-10-13T15:59:38Z"
+        },
+        {
+          "repo": "fliskos",
+          "number": 103,
+          "title": "fix: hide decorative empty-state icons from screen readers",
+          "url": "https://github.com/flisk-sh/fliskos/pull/103",
+          "mergedAt": "2026-10-12T11:01:25Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/keuqs-50778230/"
+    },
+    {
+      "login": "arxh80",
+      "id": 292943897,
+      "prs": 3,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-20T21:04:23Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3186,
+          "title": "fix(test-support): end a stuck tilt run and its process group on timeout (#2011)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3186",
+          "mergedAt": "2026-11-03T22:11:10Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1775,
+          "title": "test(cli): add coverage for createJsonEmitter",
+          "url": "https://github.com/flisk-sh/flisk/pull/1775",
+          "mergedAt": "2026-10-21T00:10:03Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1777,
+          "title": "test(cli): cover stack emoji selection and fallback",
+          "url": "https://github.com/flisk-sh/flisk/pull/1777",
+          "mergedAt": "2026-10-20T21:04:23Z"
+        }
+      ],
+      "seat": 8,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/arxh80-292943897/"
+    },
+    {
+      "login": "arxigen",
+      "id": 341682957,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-25T00:05:38Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2276,
+          "title": "docs: say where flisk demo puts the project",
+          "url": "https://github.com/flisk-sh/flisk/pull/2276",
+          "mergedAt": "2026-10-25T00:54:07Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2275,
+          "title": "docs: add language hints to unlabelled code fences",
+          "url": "https://github.com/flisk-sh/flisk/pull/2275",
+          "mergedAt": "2026-10-25T00:53:51Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2272,
+          "title": "fix(cli): name installed completion files after flisk",
+          "url": "https://github.com/flisk-sh/flisk/pull/2272",
+          "mergedAt": "2026-10-25T00:05:38Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/arxigen-341682957/"
+    },
+    {
+      "login": "vaibhavkumar955584-hub",
+      "id": 243175491,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-25T20:06:36Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2443,
+          "title": "test(cli): cover `directoryExists` and `invalidPath` error factories",
+          "url": "https://github.com/flisk-sh/flisk/pull/2443",
+          "mergedAt": "2026-10-25T21:08:59Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2444,
+          "title": "test(cli): cover saved-plan rejection in `getHostPortPlan`",
+          "url": "https://github.com/flisk-sh/flisk/pull/2444",
+          "mergedAt": "2026-10-25T21:08:45Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2442,
+          "title": "docs(cli): cover Windows tar.exe in the extractTarball doc comment",
+          "url": "https://github.com/flisk-sh/flisk/pull/2442",
+          "mergedAt": "2026-10-25T20:06:36Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/vaibhavkumar955584-hub-243175491/"
+    },
+    {
+      "login": "tylrcc",
+      "id": 247895347,
+      "prs": 3,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-11T19:31:38Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3943,
+          "title": "fix(cli): point --template help at flisk project --list, not 5 of the 16 templates",
+          "url": "https://github.com/flisk-sh/flisk/pull/3943",
+          "mergedAt": "2026-11-11T22:33:51Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3927,
+          "title": "docs(issue forms): bug and feature forms no longer say local development is only Docker + Tilt",
+          "url": "https://github.com/flisk-sh/flisk/pull/3927",
+          "mergedAt": "2026-11-11T19:31:59Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3928,
+          "title": "docs(skills): flisk-doctor compatibility no longer requires Docker and Tilt",
+          "url": "https://github.com/flisk-sh/flisk/pull/3928",
+          "mergedAt": "2026-11-11T19:31:38Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/tylrcc-247895347/"
+    },
+    {
+      "login": "Shivraj-G",
+      "id": 91483082,
+      "prs": 3,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-12T11:22:12Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4941,
+          "title": "refactor(mcp): split mcp-check into protocol, taxonomy and driver modules",
+          "url": "https://github.com/flisk-sh/flisk/pull/4941",
+          "mergedAt": "2026-11-22T04:24:14Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4102,
+          "title": "Fix(ci): handle skipped matrix jobs and negative durations",
+          "url": "https://github.com/flisk-sh/flisk/pull/4102",
+          "mergedAt": "2026-11-13T12:49:36Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3990,
+          "title": "fix(logs): say so when a local-process service has no log lines",
+          "url": "https://github.com/flisk-sh/flisk/pull/3990",
+          "mergedAt": "2026-11-12T11:22:12Z"
+        }
+      ],
+      "seat": 13,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/shivraj-g-91483082/"
+    },
+    {
+      "login": "enidchen0125",
+      "id": 196524738,
+      "prs": 3,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-15T13:43:33Z",
+      "repos": [
+        "analytics",
+        "host",
+        "learn"
+      ],
+      "merges": [
+        {
+          "repo": "analytics",
+          "number": 13,
+          "title": "Serve the public favicon, sitemap and service description",
+          "url": "https://github.com/flisk-sh/analytics/pull/13",
+          "mergedAt": "2026-11-16T00:22:54Z"
+        },
+        {
+          "repo": "learn",
+          "number": 10,
+          "title": "Add canonical URLs to the shared page head",
+          "url": "https://github.com/flisk-sh/learn/pull/10",
+          "mergedAt": "2026-11-16T00:17:53Z"
+        },
+        {
+          "repo": "host",
+          "number": 15,
+          "title": "Add canonical and Open Graph metadata to the home page",
+          "url": "https://github.com/flisk-sh/host/pull/15",
+          "mergedAt": "2026-11-15T13:43:33Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/enidchen0125-196524738/"
+    },
+    {
+      "login": "harshit-3355",
+      "id": 208593221,
+      "prs": 3,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-15T19:27:09Z",
+      "repos": [
+        "flisk-export",
+        "flisk-import",
+        "website"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-export",
+          "number": 23,
+          "title": "docs: fix Compose installation examples",
+          "url": "https://github.com/flisk-sh/flisk-export/pull/23",
+          "mergedAt": "2026-11-16T01:23:44Z"
+        },
+        {
+          "repo": "flisk-import",
+          "number": 97,
+          "title": "fix(tiltfile): make repeated imports idempotent",
+          "url": "https://github.com/flisk-sh/flisk-import/pull/97",
+          "mergedAt": "2026-11-16T01:23:36Z"
+        },
+        {
+          "repo": "website",
+          "number": 204,
+          "title": "fix(seo): add metadata to the console page",
+          "url": "https://github.com/flisk-sh/website/pull/204",
+          "mergedAt": "2026-11-15T19:27:09Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/harshit-3355-208593221/"
+    },
+    {
+      "login": "Harsh-Vdn25",
+      "id": 223641124,
+      "prs": 3,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T10:28:41Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4749,
+          "title": "fix(resources): stop suggesting a creation command for types resource…",
+          "url": "https://github.com/flisk-sh/flisk/pull/4749",
+          "mergedAt": "2026-11-19T22:12:31Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4677,
+          "title": "fix(resource): explain how to create a migrator when --type migrator is used",
+          "url": "https://github.com/flisk-sh/flisk/pull/4677",
+          "mergedAt": "2026-11-18T23:04:57Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4359,
+          "title": "fix(resource): validate name and --type before the project-root lookup",
+          "url": "https://github.com/flisk-sh/flisk/pull/4359",
+          "mergedAt": "2026-11-16T10:28:41Z"
+        }
+      ],
+      "seat": 27,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/harsh-vdn25-223641124/"
+    },
+    {
+      "login": "arpanjot-coding",
+      "id": 50767931,
+      "prs": 3,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-16T11:17:04Z",
+      "repos": [
+        "codeql-goose",
+        "codeql-lobster",
+        "codeql-starlark"
+      ],
+      "merges": [
+        {
+          "repo": "codeql-lobster",
+          "number": 10,
+          "title": "fix(cli): validate scan roots and warn on empty scans",
+          "url": "https://github.com/flisk-sh/codeql-lobster/pull/10",
+          "mergedAt": "2026-11-16T15:05:53Z"
+        },
+        {
+          "repo": "codeql-goose",
+          "number": 12,
+          "title": "fix(cli): validate scan roots and warn on empty scans",
+          "url": "https://github.com/flisk-sh/codeql-goose/pull/12",
+          "mergedAt": "2026-11-16T11:18:53Z"
+        },
+        {
+          "repo": "codeql-starlark",
+          "number": 14,
+          "title": "fix(cli): validate scan roots and warn on empty scans",
+          "url": "https://github.com/flisk-sh/codeql-starlark/pull/14",
+          "mergedAt": "2026-11-16T11:17:04Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/arpanjot-coding-50767931/"
+    },
+    {
+      "login": "dev-burnern",
+      "id": 200775118,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-22T19:39:34Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5052,
+          "title": "fix(import): keep human report out of stderr under --json",
+          "url": "https://github.com/flisk-sh/flisk/pull/5052",
+          "mergedAt": "2026-11-22T19:51:52Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5061,
+          "title": "fix(doctor): treat duplicate ports on local-process services as a hard error",
+          "url": "https://github.com/flisk-sh/flisk/pull/5061",
+          "mergedAt": "2026-11-22T19:48:50Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5060,
+          "title": "fix(doctor): validate service.json secrets shape in checkRequiredSecrets",
+          "url": "https://github.com/flisk-sh/flisk/pull/5060",
+          "mergedAt": "2026-11-22T19:39:34Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/dev-burnern-200775118/"
+    },
+    {
+      "login": "austinchennn",
+      "id": 250637881,
+      "prs": 3,
+      "issues": 3,
+      "rank": "rank: 6 kyu",
+      "first": "2026-11-22T20:03:30Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5491,
+          "title": "fix(project): skip undiscoverable nested CI workflows",
+          "url": "https://github.com/flisk-sh/flisk/pull/5491",
+          "mergedAt": "2026-11-24T10:01:25Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5413,
+          "title": "fix(scaffold): run generated Bun tests without Node",
+          "url": "https://github.com/flisk-sh/flisk/pull/5413",
+          "mergedAt": "2026-11-24T10:00:42Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4739,
+          "title": "feat(logs): add smart-case grep and per-service context",
+          "url": "https://github.com/flisk-sh/flisk/pull/4739",
+          "mergedAt": "2026-11-22T20:03:30Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/austinchennn-250637881/"
+    },
+    {
+      "login": "Aadharbindal",
+      "id": 181559666,
+      "prs": 3,
+      "issues": 3,
+      "rank": null,
+      "first": "2026-11-24T00:03:43Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 5568,
+          "title": "fix(config): explain a stack folder's .autogenerated/ files as generated",
+          "url": "https://github.com/flisk-sh/flisk/pull/5568",
+          "mergedAt": "2026-11-24T21:26:41Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5398,
+          "title": "fix(project): show a check-specific banner for flisk project --check",
+          "url": "https://github.com/flisk-sh/flisk/pull/5398",
+          "mergedAt": "2026-11-24T19:20:50Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 5410,
+          "title": "fix(project): write the agent skills once and link .claude/skills to them",
+          "url": "https://github.com/flisk-sh/flisk/pull/5410",
+          "mergedAt": "2026-11-24T00:03:43Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/aadharbindal-181559666/"
+    },
+    {
+      "login": "YuuGR1337",
+      "id": 241930202,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-08T07:55:08Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3562,
+          "title": "[العربية] docs: add Prerequisites and Installation to README-ar",
+          "url": "https://github.com/flisk-sh/flisk/pull/3562",
+          "mergedAt": "2026-11-10T08:10:24Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 741,
+          "title": "docs(ui): add docs/ui.md with every tdk ui key binding",
+          "url": "https://github.com/flisk-sh/flisk/pull/741",
+          "mergedAt": "2026-10-08T07:55:08Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/yuugr1337-241930202/"
+    },
+    {
+      "login": "AFLAHAFI",
+      "id": 136905660,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 6 kyu",
+      "first": "2026-10-11T13:30:20Z",
+      "repos": [
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "fliskos",
+          "number": 90,
+          "title": "feat: add keyboard shortcuts to project filter",
+          "url": "https://github.com/flisk-sh/fliskos/pull/90",
+          "mergedAt": "2026-10-12T10:25:12Z"
+        },
+        {
+          "repo": "fliskos",
+          "number": 78,
+          "title": "fix: add accessible name to sidebar project filter",
+          "url": "https://github.com/flisk-sh/fliskos/pull/78",
+          "mergedAt": "2026-10-11T13:30:20Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/aflahafi-136905660/"
+    },
+    {
+      "login": "sricharanreddycheruku",
+      "id": 185475071,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-11T13:32:21Z",
+      "repos": [
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "fliskos",
+          "number": 79,
+          "title": "fix(ui): expose sidebar toggle state",
+          "url": "https://github.com/flisk-sh/fliskos/pull/79",
+          "mergedAt": "2026-10-11T13:40:40Z"
+        },
+        {
+          "repo": "fliskos",
+          "number": 77,
+          "title": "fix: name dialogs from their visible headings",
+          "url": "https://github.com/flisk-sh/fliskos/pull/77",
+          "mergedAt": "2026-10-11T13:32:21Z"
+        }
+      ],
+      "seat": 9,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/sricharanreddycheruku-185475071/"
+    },
+    {
+      "login": "krishna2707",
+      "id": 104905235,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-14T17:11:51Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1203,
+          "title": "docs(cli): document logs JSON output",
+          "url": "https://github.com/flisk-sh/flisk/pull/1203",
+          "mergedAt": "2026-10-15T21:47:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1173,
+          "title": "docs: clarify doctor and config verify",
+          "url": "https://github.com/flisk-sh/flisk/pull/1173",
+          "mergedAt": "2026-10-14T17:11:51Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/krishna2707-104905235/"
+    },
+    {
+      "login": "rahul05ranjan",
+      "id": 11793455,
+      "prs": 2,
+      "issues": 1,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-23T10:12:10Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1904,
+          "title": "docs(service-json): add an mcp resource type example manifest",
+          "url": "https://github.com/flisk-sh/flisk/pull/1904",
+          "mergedAt": "2026-10-23T10:12:45Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 1903,
+          "title": "docs(cli): add JSDoc to exported functions in utils/paths.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/1903",
+          "mergedAt": "2026-10-23T10:12:10Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/rahul05ranjan-11793455/"
+    },
+    {
+      "login": "sohammkk",
+      "id": 192421992,
+      "prs": 2,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-24T18:49:17Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2734,
+          "title": "test(scripts): add a behaviour test for scripts/ai-conflict-buttons-comment.sh with a stubbed gh",
+          "url": "https://github.com/flisk-sh/flisk/pull/2734",
+          "mergedAt": "2026-10-29T22:21:58Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2067,
+          "title": "Fixes #1832",
+          "url": "https://github.com/flisk-sh/flisk/pull/2067",
+          "mergedAt": "2026-10-24T18:49:17Z"
+        }
+      ],
+      "seat": 24,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/sohammkk-192421992/"
+    },
+    {
+      "login": "CoDe-ReDz",
+      "id": 98934035,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-25T02:20:52Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2284,
+          "title": "refactor(cli): replace raw Error throws with FliskError in host-port-plan and tilt-process (#2263)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2284",
+          "mergedAt": "2026-10-25T02:21:34Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2283,
+          "title": "refactor(cli): remove duplicate ResourceType alias and rename appType param",
+          "url": "https://github.com/flisk-sh/flisk/pull/2283",
+          "mergedAt": "2026-10-25T02:20:52Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/code-redz-98934035/"
+    },
+    {
+      "login": "nabikita3974",
+      "id": 148695293,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-31T23:16:26Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3984,
+          "title": "docs: translate the start of the e2e guide into Japanese",
+          "url": "https://github.com/flisk-sh/flisk/pull/3984",
+          "mergedAt": "2026-11-12T11:27:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 2941,
+          "title": "docs: translate the contributor quick start into Japanese",
+          "url": "https://github.com/flisk-sh/flisk/pull/2941",
+          "mergedAt": "2026-10-31T23:16:26Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/nabikita3974-148695293/"
+    },
+    {
+      "login": "jeffrey-graham",
+      "id": 270676668,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 7 kyu",
+      "first": "2026-11-06T20:42:20Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3339,
+          "title": "engine: remove unreferenced paths.star and where-things-live.star, move spec.master.example to engine/docs (#1539)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3339",
+          "mergedAt": "2026-11-07T16:45:33Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3324,
+          "title": "docs: link start-here-on-windows.md in quickstart, docs index, and CLI refusal (#3204)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3324",
+          "mergedAt": "2026-11-06T20:42:20Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/jeffrey-graham-270676668/"
+    },
+    {
+      "login": "maritim29",
+      "id": 336919583,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-09T21:04:45Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3656,
+          "title": "test(cli): scaffold test for next frontend provider",
+          "url": "https://github.com/flisk-sh/flisk/pull/3656",
+          "mergedAt": "2026-11-10T15:55:11Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3501,
+          "title": "feat(cli): add an Examples block to flisk runtime --help",
+          "url": "https://github.com/flisk-sh/flisk/pull/3501",
+          "mergedAt": "2026-11-09T21:04:45Z"
+        }
+      ],
+      "seat": 4,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/maritim29-336919583/"
+    },
+    {
+      "login": "shounakjoshi88-a11y",
+      "id": 226379714,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-10T21:40:30Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3879,
+          "title": "fix(mcp): report a projectPath that does not exist as such",
+          "url": "https://github.com/flisk-sh/flisk/pull/3879",
+          "mergedAt": "2026-11-11T22:39:12Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3705,
+          "title": "test(cli): cover the helpers in utils/infra-presets.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/3705",
+          "mergedAt": "2026-11-10T21:40:30Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/shounakjoshi88-a11y-226379714/"
+    },
+    {
+      "login": "miteshanshu",
+      "id": 110464539,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 7 kyu",
+      "first": "2026-11-11T10:12:47Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3904,
+          "title": "perf(discovery): cache discoverResourcesWithProblems per project root",
+          "url": "https://github.com/flisk-sh/flisk/pull/3904",
+          "mergedAt": "2026-11-11T22:34:23Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3796,
+          "title": "fix(cli): ignore copies of .env in the generated .gitignore",
+          "url": "https://github.com/flisk-sh/flisk/pull/3796",
+          "mergedAt": "2026-11-11T10:12:47Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/miteshanshu-110464539/"
+    },
+    {
+      "login": "mangomac",
+      "id": 333602023,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T10:17:30Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3988,
+          "title": "fix(resource): scaffolded worker dev command names a real script",
+          "url": "https://github.com/flisk-sh/flisk/pull/3988",
+          "mergedAt": "2026-11-12T11:10:28Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3798,
+          "title": "fix(down): normalize cache prune durations before invoking Docker",
+          "url": "https://github.com/flisk-sh/flisk/pull/3798",
+          "mergedAt": "2026-11-11T10:17:30Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/mangomac-333602023/"
+    },
+    {
+      "login": "chiragjangiir",
+      "id": 184008125,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 7 kyu",
+      "first": "2026-11-11T17:29:42Z",
+      "repos": [
+        "flisk",
+        "jobs"
+      ],
+      "merges": [
+        {
+          "repo": "jobs",
+          "number": 3,
+          "title": "perf(board): throttle sessions polling and disable kLoad on bot board",
+          "url": "https://github.com/flisk-sh/jobs/pull/3",
+          "mergedAt": "2026-11-14T13:54:38Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3882,
+          "title": "fix(ui): require interactive TTY before rendering Ink dashboard (#3867)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3882",
+          "mergedAt": "2026-11-11T17:29:42Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/chiragjangiir-184008125/"
+    },
+    {
+      "login": "ApoorvTyagi",
+      "id": 39600765,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-12T11:31:18Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3986,
+          "title": "feat(completion): offer fixed flag values",
+          "url": "https://github.com/flisk-sh/flisk/pull/3986",
+          "mergedAt": "2026-11-12T11:31:18Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 3987,
+          "title": "fix(project): retain starter as upstream and shallow-clone unpinned templates",
+          "url": "https://github.com/flisk-sh/flisk/pull/3987",
+          "mergedAt": "2026-11-12T11:31:18Z"
+        }
+      ],
+      "seat": 14,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/apoorvtyagi-39600765/"
+    },
+    {
+      "login": "benyoussefzinelabidin-star",
+      "id": 319604429,
+      "prs": 2,
+      "issues": 2,
+      "rank": null,
+      "first": "2026-11-12T23:54:28Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4087,
+          "title": "perf(ci): free-postgres-port early-exits when ports are already free",
+          "url": "https://github.com/flisk-sh/flisk/pull/4087",
+          "mergedAt": "2026-11-13T01:27:21Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4072,
+          "title": "perf(ci): default setup-bun to pinned 1.4.4 instead of latest",
+          "url": "https://github.com/flisk-sh/flisk/pull/4072",
+          "mergedAt": "2026-11-12T23:54:28Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/benyoussefzinelabidin-star-319604429/"
+    },
+    {
+      "login": "trvorth",
+      "id": 209536500,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-14T20:08:04Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4390,
+          "title": "fix(project): suggest the closest starter for a mistyped key (#4287)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4390",
+          "mergedAt": "2026-11-16T13:54:13Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4188,
+          "title": "fix(up): refuse to start when the project has no resources (#3781)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4188",
+          "mergedAt": "2026-11-14T20:08:04Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/trvorth-209536500/"
+    },
+    {
+      "login": "P-r-e-m-i-u-m",
+      "id": 233445760,
+      "prs": 2,
+      "issues": 2,
+      "rank": null,
+      "first": "2026-11-16T21:23:02Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4471,
+          "title": "fix: don't pass the Docker-host DATABASE_URL to local services without a database (#4456)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4471",
+          "mergedAt": "2026-11-16T21:28:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4465,
+          "title": "fix: report npm for local projects whose services run npm run dev (#4459)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4465",
+          "mergedAt": "2026-11-16T21:23:02Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/p-r-e-m-i-u-m-233445760/"
+    },
+    {
+      "login": "Pratham2511",
+      "id": 145864145,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-20T00:27:30Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4719,
+          "title": "fix(upgrade): resolve the latest version without requiring npm",
+          "url": "https://github.com/flisk-sh/flisk/pull/4719",
+          "mergedAt": "2026-11-21T22:42:30Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4750,
+          "title": "fix(config): fail fast without a terminal and honour $VISUAL in config edit",
+          "url": "https://github.com/flisk-sh/flisk/pull/4750",
+          "mergedAt": "2026-11-20T00:27:30Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/pratham2511-145864145/"
+    },
+    {
+      "login": "MaxonT",
+      "id": 173550318,
+      "prs": 2,
+      "issues": 2,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-22T19:40:26Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4972,
+          "title": "fix(schema): do not require stack for an image service in service-schema.json",
+          "url": "https://github.com/flisk-sh/flisk/pull/4972",
+          "mergedAt": "2026-11-23T10:39:28Z"
+        },
+        {
+          "repo": "flisk",
+          "number": 4973,
+          "title": "fix(gitignore): ignore the generated database-management compose file",
+          "url": "https://github.com/flisk-sh/flisk/pull/4973",
+          "mergedAt": "2026-11-22T19:40:26Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/maxont-173550318/"
+    },
+    {
+      "login": "floatyserve",
+      "id": 134004489,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-03T14:29:32Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 427,
+          "title": "cover tdk status output and options Fixes #14",
+          "url": "https://github.com/flisk-sh/flisk/pull/427",
+          "mergedAt": "2026-10-03T14:29:32Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/floatyserve-134004489/"
+    },
+    {
+      "login": "denisvmedia",
+      "id": 5462781,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-10-03T14:37:42Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 429,
+          "title": "feat(examples): add a Ptah one-shot job example",
+          "url": "https://github.com/flisk-sh/flisk/pull/429",
+          "mergedAt": "2026-10-03T14:37:42Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/denisvmedia-5462781/"
+    },
+    {
+      "login": "eddyflores100-lang",
+      "id": 259931436,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-09T06:18:04Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 951,
+          "title": "refactor: extract project.json file name into PROJECT_JSON constant",
+          "url": "https://github.com/flisk-sh/flisk/pull/951",
+          "mergedAt": "2026-10-09T06:18:04Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/eddyflores100-lang-259931436/"
+    },
+    {
+      "login": "GeoCeff",
+      "id": 235697264,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 7 kyu",
+      "first": "2026-10-09T18:33:55Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 995,
+          "title": "fix(cli): validate TILT_PORT for status and UI polling",
+          "url": "https://github.com/flisk-sh/flisk/pull/995",
+          "mergedAt": "2026-10-09T18:33:55Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/geoceff-235697264/"
+    },
+    {
+      "login": "Samueldavidddsc",
+      "id": 192652925,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-11T18:57:54Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1054,
+          "title": "docs: move networks-design.md to docs directory",
+          "url": "https://github.com/flisk-sh/flisk/pull/1054",
+          "mergedAt": "2026-10-11T18:57:54Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/samueldavidddsc-192652925/"
+    },
+    {
+      "login": "adity982",
+      "id": 59918965,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 5 kyu",
+      "first": "2026-10-12T09:22:38Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1056,
+          "title": "test(mcp): smoke-test stdio initialization",
+          "url": "https://github.com/flisk-sh/flisk/pull/1056",
+          "mergedAt": "2026-10-12T09:22:38Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/adity982-59918965/"
+    },
+    {
+      "login": "yesheng-oss",
+      "id": 229726014,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-13T16:07:53Z",
+      "repos": [
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "fliskos",
+          "number": 108,
+          "title": "chore: add EditorConfig matching the repository",
+          "url": "https://github.com/flisk-sh/fliskos/pull/108",
+          "mergedAt": "2026-10-13T16:07:53Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/yesheng-oss-229726014/"
+    },
+    {
+      "login": "krish-tech-builds",
+      "id": 327078345,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-10-13T19:10:26Z",
+      "repos": [
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "fliskos",
+          "number": 109,
+          "title": "Improve light-mode tertiary text contrast",
+          "url": "https://github.com/flisk-sh/fliskos/pull/109",
+          "mergedAt": "2026-10-13T19:10:26Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/krish-tech-builds-327078345/"
+    },
+    {
+      "login": "Murphyvon",
+      "id": 93479247,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 6 kyu",
+      "first": "2026-10-15T10:20:39Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1201,
+          "title": "docs: add Japanese finding-bugs guide",
+          "url": "https://github.com/flisk-sh/flisk/pull/1201",
+          "mergedAt": "2026-10-15T10:20:39Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "Green",
+      "page": "https://badges.flisk.si/murphyvon-93479247/"
+    },
+    {
+      "login": "ayushbuilds-code",
+      "id": 296805129,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-16T11:07:33Z",
+      "repos": [
+        "website"
+      ],
+      "merges": [
+        {
+          "repo": "website",
+          "number": 58,
+          "title": "docs: add contributing guide",
+          "url": "https://github.com/flisk-sh/website/pull/58",
+          "mergedAt": "2026-10-16T11:07:33Z"
+        }
+      ],
+      "seat": 7,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/ayushbuilds-code-296805129/"
+    },
+    {
+      "login": "dharamdan01",
+      "id": 188893946,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-20T13:58:07Z",
+      "repos": [
+        "flisk-labs"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-labs",
+          "number": 11,
+          "title": "test: add unit tests for scripts/lib.mjs",
+          "url": "https://github.com/flisk-sh/flisk-labs/pull/11",
+          "mergedAt": "2026-10-20T13:58:07Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/dharamdan01-188893946/"
+    },
+    {
+      "login": "Vignesh2662006",
+      "id": 205786106,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-20T16:20:00Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1766,
+          "title": "docs: add microservices quick start",
+          "url": "https://github.com/flisk-sh/flisk/pull/1766",
+          "mergedAt": "2026-10-20T16:20:00Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/vignesh2662006-205786106/"
+    },
+    {
+      "login": "WilsonSoetomo",
+      "id": 10220239,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-21T23:42:11Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1846,
+          "title": "docs: add a contributor quick start",
+          "url": "https://github.com/flisk-sh/flisk/pull/1846",
+          "mergedAt": "2026-10-21T23:42:11Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/wilsonsoetomo-10220239/"
+    },
+    {
+      "login": "Enard52",
+      "id": 223665159,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-10-23T21:24:27Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1968,
+          "title": "refactor(cli): rename shared test-support runner",
+          "url": "https://github.com/flisk-sh/flisk/pull/1968",
+          "mergedAt": "2026-10-23T21:24:27Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/enard52-223665159/"
+    },
+    {
+      "login": "airdropia",
+      "id": 223073086,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-24T09:49:53Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2017,
+          "title": "[security] serialize-javascript: Serialize JavaScript: Cross-site scripting (XSS) via unescaped </script at the end of a serialized function body (examples/byo/nitro/package-lock.json) (#2015)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2017",
+          "mergedAt": "2026-10-24T09:49:53Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/airdropia-223073086/"
+    },
+    {
+      "login": "sinhaananya812-star",
+      "id": 322573199,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-10-24T14:37:42Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 1910,
+          "title": "test: add Python backend provider unit tests",
+          "url": "https://github.com/flisk-sh/flisk/pull/1910",
+          "mergedAt": "2026-10-24T14:37:42Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/sinhaananya812-star-322573199/"
+    },
+    {
+      "login": "busibuhuo",
+      "id": 236169924,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-25T15:53:09Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2297,
+          "title": "docs: add Simplified Chinese translation of recipes README",
+          "url": "https://github.com/flisk-sh/flisk/pull/2297",
+          "mergedAt": "2026-10-25T15:53:09Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/busibuhuo-236169924/"
+    },
+    {
+      "login": "dannyward630",
+      "id": 71604164,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-25T18:47:03Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2306,
+          "title": "fix(cli): clean extraction temp dir on failure",
+          "url": "https://github.com/flisk-sh/flisk/pull/2306",
+          "mergedAt": "2026-10-25T18:47:03Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/dannyward630-71604164/"
+    },
+    {
+      "login": "Muhtasim-Munif-Fahim",
+      "id": 204097607,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-10-26T08:43:35Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2482,
+          "title": "test(cli): add direct tests for getEnabledProjectFeatures (Fixes #2313)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2482",
+          "mergedAt": "2026-10-26T08:43:35Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/muhtasim-munif-fahim-204097607/"
+    },
+    {
+      "login": "harshitagrawal01",
+      "id": 225249363,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-26T22:13:09Z",
+      "repos": [
+        "flisk-docker-compose-example"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-docker-compose-example",
+          "number": 14,
+          "title": "ci: enable Dependabot for GitHub Actions",
+          "url": "https://github.com/flisk-sh/flisk-docker-compose-example/pull/14",
+          "mergedAt": "2026-10-26T22:13:09Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/harshitagrawal01-225249363/"
+    },
+    {
+      "login": "akshatXD-hash",
+      "id": 212196783,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-10-29T17:29:21Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2711,
+          "title": "refactor(cli): move shared utility interfaces to src/types/index.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/2711",
+          "mergedAt": "2026-10-29T17:29:21Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/akshatxd-hash-212196783/"
+    },
+    {
+      "login": "ankitjha1405",
+      "id": 76553358,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-29T20:20:29Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 2730,
+          "title": "fix(cli): one PORT rule for generated backends (#1516)",
+          "url": "https://github.com/flisk-sh/flisk/pull/2730",
+          "mergedAt": "2026-10-29T20:20:29Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/ankitjha1405-76553358/"
+    },
+    {
+      "login": "NicoYang1984",
+      "id": 103879136,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-10-30T11:52:19Z",
+      "repos": [
+        "flisk-skills"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-skills",
+          "number": 33,
+          "title": "Validate required skill frontmatter in CI",
+          "url": "https://github.com/flisk-sh/flisk-skills/pull/33",
+          "mergedAt": "2026-10-30T11:52:19Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/nicoyang1984-103879136/"
+    },
+    {
+      "login": "chirag-gupta7",
+      "id": 153428492,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-09T15:34:45Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3471,
+          "title": "docs(cheat-sheet): add flisk export and flisk agent sessions (Fixes #3470)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3471",
+          "mergedAt": "2026-11-09T15:34:45Z"
+        }
+      ],
+      "seat": 20,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/chirag-gupta7-153428492/"
+    },
+    {
+      "login": "Ibrahim2709-raaz",
+      "id": 211779953,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-09T15:57:56Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3472,
+          "title": "test(cli): cover vanilla frontend provider",
+          "url": "https://github.com/flisk-sh/flisk/pull/3472",
+          "mergedAt": "2026-11-09T15:57:56Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/ibrahim2709-raaz-211779953/"
+    },
+    {
+      "login": "Aarohi-Sinha",
+      "id": 193777673,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-11-09T19:07:03Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3485,
+          "title": "docs(cli): add usage examples to flisk distribute kit --help",
+          "url": "https://github.com/flisk-sh/flisk/pull/3485",
+          "mergedAt": "2026-11-09T19:07:03Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/aarohi-sinha-193777673/"
+    },
+    {
+      "login": "chen-xiao-yuan",
+      "id": 291446398,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-10T13:32:56Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3633,
+          "title": "fix(ui): remove Neon Edition internal name from help description",
+          "url": "https://github.com/flisk-sh/flisk/pull/3633",
+          "mergedAt": "2026-11-10T13:32:56Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/chen-xiao-yuan-291446398/"
+    },
+    {
+      "login": "teotiabhumik-ship-it",
+      "id": 317973664,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-10T14:07:34Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3645,
+          "title": "fix(repos): describe flisk repos as cloning repositories in project.json",
+          "url": "https://github.com/flisk-sh/flisk/pull/3645",
+          "mergedAt": "2026-11-10T14:07:34Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/teotiabhumik-ship-it-317973664/"
+    },
+    {
+      "login": "darshmahadevia",
+      "id": 160497999,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-10T15:09:28Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3653,
+          "title": "fix(resources): suggest bring-your-own for queue and inference filters",
+          "url": "https://github.com/flisk-sh/flisk/pull/3653",
+          "mergedAt": "2026-11-10T15:09:28Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/darshmahadevia-160497999/"
+    },
+    {
+      "login": "Omarinho12345",
+      "id": 161320094,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-11-10T19:14:05Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3683,
+          "title": "fix(cli): refuse an unknown template before the demo screen",
+          "url": "https://github.com/flisk-sh/flisk/pull/3683",
+          "mergedAt": "2026-11-10T19:14:05Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/omarinho12345-161320094/"
+    },
+    {
+      "login": "vivanraj81",
+      "id": 141013692,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T12:06:30Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3814,
+          "title": "test(cli): cover formatAge boundaries",
+          "url": "https://github.com/flisk-sh/flisk/pull/3814",
+          "mergedAt": "2026-11-11T12:06:30Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/vivanraj81-141013692/"
+    },
+    {
+      "login": "yashh1323",
+      "id": 183808659,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 7 kyu",
+      "first": "2026-11-11T14:26:48Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3824,
+          "title": "perf(test): split create registry tests into separate files with it.each",
+          "url": "https://github.com/flisk-sh/flisk/pull/3824",
+          "mergedAt": "2026-11-11T14:26:48Z"
+        }
+      ],
+      "seat": 11,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/yashh1323-183808659/"
+    },
+    {
+      "login": "Ixaflix",
+      "id": 148813959,
+      "prs": 1,
+      "issues": 3,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T16:55:55Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3861,
+          "title": "feat(cli): add Examples to config migrate, explain and verify --help",
+          "url": "https://github.com/flisk-sh/flisk/pull/3861",
+          "mergedAt": "2026-11-11T16:55:55Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/ixaflix-148813959/"
+    },
+    {
+      "login": "anubhabx",
+      "id": 84611567,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-11T20:02:28Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3926,
+          "title": "fix(scaffold): include jsdom for Solid frontend tests",
+          "url": "https://github.com/flisk-sh/flisk/pull/3926",
+          "mergedAt": "2026-11-11T20:02:28Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/anubhabx-84611567/"
+    },
+    {
+      "login": "mrCabez",
+      "id": 110625817,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-12T11:27:30Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3985,
+          "title": "[Italiano] docs: add Prerequisites and Installation to README-it",
+          "url": "https://github.com/flisk-sh/flisk/pull/3985",
+          "mergedAt": "2026-11-12T11:27:30Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/mrcabez-110625817/"
+    },
+    {
+      "login": "Shubhampatel001",
+      "id": 66129660,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-12T18:11:57Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 3993,
+          "title": "test(doctor): deduplicate Docker ps calls across checks (#3834)",
+          "url": "https://github.com/flisk-sh/flisk/pull/3993",
+          "mergedAt": "2026-11-12T18:11:57Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/shubhampatel001-66129660/"
+    },
+    {
+      "login": "SAY-5",
+      "id": 240962040,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 7 kyu",
+      "first": "2026-11-13T12:49:11Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4105,
+          "title": "fix(ui): use ASCII markers for non-UTF-8 locales and TERM=linux",
+          "url": "https://github.com/flisk-sh/flisk/pull/4105",
+          "mergedAt": "2026-11-13T12:49:11Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/say-5-240962040/"
+    },
+    {
+      "login": "gabm0932",
+      "id": 108531412,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-11-14T13:13:17Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4167,
+          "title": "docs(recipes): add a LocalStack S3 and SQS recipe",
+          "url": "https://github.com/flisk-sh/flisk/pull/4167",
+          "mergedAt": "2026-11-14T13:13:17Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/gabm0932-108531412/"
+    },
+    {
+      "login": "tanqdev",
+      "id": 218605218,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-14T14:05:23Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4172,
+          "title": "test(cli): add Node backend provider contract tests",
+          "url": "https://github.com/flisk-sh/flisk/pull/4172",
+          "mergedAt": "2026-11-14T14:05:23Z"
+        }
+      ],
+      "seat": 16,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/tanqdev-218605218/"
+    },
+    {
+      "login": "Prince-Dany",
+      "id": 233447939,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-14T14:59:00Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4181,
+          "title": "perf(ci): replace apt purge with fast port check in docs CI template",
+          "url": "https://github.com/flisk-sh/flisk/pull/4181",
+          "mergedAt": "2026-11-14T14:59:00Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/prince-dany-233447939/"
+    },
+    {
+      "login": "mohdmunis161",
+      "id": 187093505,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-14T15:16:20Z",
+      "repos": [
+        "website"
+      ],
+      "merges": [
+        {
+          "repo": "website",
+          "number": 191,
+          "title": "perf(home): resize adopter logos to 56px and add dimensions (fixes #190)",
+          "url": "https://github.com/flisk-sh/website/pull/191",
+          "mergedAt": "2026-11-14T15:16:20Z"
+        }
+      ],
+      "seat": 17,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/mohdmunis161-187093505/"
+    },
+    {
+      "login": "iSabbir",
+      "id": 131774907,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-15T00:08:16Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4229,
+          "title": "fix(scaffold): fall back to the assigned port in generated src/index.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/4229",
+          "mergedAt": "2026-11-15T00:08:16Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/isabbir-131774907/"
+    },
+    {
+      "login": "O1sumitkumar",
+      "id": 109774891,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-15T10:31:13Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4255,
+          "title": "fix(json): print `flisk networks --json` as one compact line",
+          "url": "https://github.com/flisk-sh/flisk/pull/4255",
+          "mergedAt": "2026-11-15T10:31:13Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/o1sumitkumar-109774891/"
+    },
+    {
+      "login": "suyshx31",
+      "id": 122336945,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-11-15T12:45:47Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4270,
+          "title": "fix(config): reject an empty dev.command in config verify and up (#4191)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4270",
+          "mergedAt": "2026-11-15T12:45:47Z"
+        }
+      ],
+      "seat": 19,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/suyshx31-122336945/"
+    },
+    {
+      "login": "Mr45401",
+      "id": 185895283,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-15T19:29:08Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4312,
+          "title": "fix(cli): unify unknown-resource error and suggestions across commands (#4253)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4312",
+          "mergedAt": "2026-11-15T19:29:08Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/mr45401-185895283/"
+    },
+    {
+      "login": "Rishankgupta08",
+      "id": 183070723,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-15T19:44:04Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4310,
+          "title": "feat(agent): add flisk agent list subcommand (#4249)",
+          "url": "https://github.com/flisk-sh/flisk/pull/4310",
+          "mergedAt": "2026-11-15T19:44:04Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/rishankgupta08-183070723/"
+    },
+    {
+      "login": "mikemikimike",
+      "id": 186855910,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T00:49:10Z",
+      "repos": [
+        "jobs"
+      ],
+      "merges": [
+        {
+          "repo": "jobs",
+          "number": 23,
+          "title": "perf(jobs): keep agent listings under the query limit",
+          "url": "https://github.com/flisk-sh/jobs/pull/23",
+          "mergedAt": "2026-11-16T00:49:10Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/mikemikimike-186855910/"
+    },
+    {
+      "login": "Adir-html",
+      "id": 225074692,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-11-16T00:49:25Z",
+      "repos": [
+        "fliskos"
+      ],
+      "merges": [
+        {
+          "repo": "fliskos",
+          "number": 163,
+          "title": "fix mobile link tap target size",
+          "url": "https://github.com/flisk-sh/fliskos/pull/163",
+          "mergedAt": "2026-11-16T00:49:25Z"
+        }
+      ],
+      "seat": 25,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/adir-html-225074692/"
+    },
+    {
+      "login": "mafujahmedridoy22-commits",
+      "id": 314548970,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T00:52:05Z",
+      "repos": [
+        "helpdock"
+      ],
+      "merges": [
+        {
+          "repo": "helpdock",
+          "number": 34,
+          "title": "chore(lint): sweep the agent's lint warnings and fail CI on new ones",
+          "url": "https://github.com/flisk-sh/helpdock/pull/34",
+          "mergedAt": "2026-11-16T00:52:05Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/mafujahmedridoy22-commits-314548970/"
+    },
+    {
+      "login": "SatyamSingh-16",
+      "id": 229050942,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T11:12:12Z",
+      "repos": [
+        "flisk-person-crud-example"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-person-crud-example",
+          "number": 17,
+          "title": "chore: add GitHub topics verification and contributing notes",
+          "url": "https://github.com/flisk-sh/flisk-person-crud-example/pull/17",
+          "mergedAt": "2026-11-16T11:12:12Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/satyamsingh-16-229050942/"
+    },
+    {
+      "login": "iyuzhang",
+      "id": 17938626,
+      "prs": 1,
+      "issues": 1,
+      "rank": "rank: 8 kyu",
+      "first": "2026-11-16T13:47:39Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4391,
+          "title": "fix(scaffold): run tests once and test backend health",
+          "url": "https://github.com/flisk-sh/flisk/pull/4391",
+          "mergedAt": "2026-11-16T13:47:39Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": "White",
+      "page": "https://badges.flisk.si/iyuzhang-17938626/"
+    },
+    {
+      "login": "NOTyuvraj",
+      "id": 121291294,
+      "prs": 1,
+      "issues": 0,
+      "rank": null,
+      "first": "2026-11-16T15:05:34Z",
+      "repos": [
+        "login"
+      ],
+      "merges": [
+        {
+          "repo": "login",
+          "number": 14,
+          "title": "Add llms.txt endpoint",
+          "url": "https://github.com/flisk-sh/login/pull/14",
+          "mergedAt": "2026-11-16T15:05:34Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/notyuvraj-121291294/"
+    },
+    {
+      "login": "techkayacodes",
+      "id": 74741855,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T15:05:58Z",
+      "repos": [
+        "chat"
+      ],
+      "merges": [
+        {
+          "repo": "chat",
+          "number": 234,
+          "title": "fix(api): return 405 with Allow header for non-POST on /github/webhook",
+          "url": "https://github.com/flisk-sh/chat/pull/234",
+          "mergedAt": "2026-11-16T15:05:58Z"
+        }
+      ],
+      "seat": 23,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/techkayacodes-74741855/"
+    },
+    {
+      "login": "ShivamJuyal24",
+      "id": 120201456,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T15:06:03Z",
+      "repos": [
+        "flisk-tools"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-tools",
+          "number": 47,
+          "title": "fix(routing): redirect trailing slash to canonical path (#45)",
+          "url": "https://github.com/flisk-sh/flisk-tools/pull/47",
+          "mergedAt": "2026-11-16T15:06:03Z"
+        }
+      ],
+      "seat": 22,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/shivamjuyal24-120201456/"
+    },
+    {
+      "login": "visnuxx",
+      "id": 260659922,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T15:06:09Z",
+      "repos": [
+        "readme-score"
+      ],
+      "merges": [
+        {
+          "repo": "readme-score",
+          "number": 59,
+          "title": "fix(web): redirect trailing slashes on about and checks pages",
+          "url": "https://github.com/flisk-sh/readme-score/pull/59",
+          "mergedAt": "2026-11-16T15:06:09Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/visnuxx-260659922/"
+    },
+    {
+      "login": "harshit3355",
+      "id": 96806109,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-16T15:06:15Z",
+      "repos": [
+        "citable"
+      ],
+      "merges": [
+        {
+          "repo": "citable",
+          "number": 46,
+          "title": "fix(routing): return 404 for static-file paths",
+          "url": "https://github.com/flisk-sh/citable/pull/46",
+          "mergedAt": "2026-11-16T15:06:15Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/harshit3355-96806109/"
+    },
+    {
+      "login": "prascli",
+      "id": 11029197,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-17T13:29:35Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4589,
+          "title": "docs(doctor): clarify ports is absent for local-process projects",
+          "url": "https://github.com/flisk-sh/flisk/pull/4589",
+          "mergedAt": "2026-11-17T13:29:35Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/prascli-11029197/"
+    },
+    {
+      "login": "yunusarda-sudo",
+      "id": 64425746,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-17T22:30:01Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4646,
+          "title": "test(cli): own test file for utils/env-expand.ts",
+          "url": "https://github.com/flisk-sh/flisk/pull/4646",
+          "mergedAt": "2026-11-17T22:30:01Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/yunusarda-sudo-64425746/"
+    },
+    {
+      "login": "RakeWangsa",
+      "id": 116138780,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-18T21:47:28Z",
+      "repos": [
+        "md2html"
+      ],
+      "merges": [
+        {
+          "repo": "md2html",
+          "number": 8,
+          "title": "fix: decode HTML entities in single pass to prevent double decoding",
+          "url": "https://github.com/flisk-sh/md2html/pull/8",
+          "mergedAt": "2026-11-18T21:47:28Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/rakewangsa-116138780/"
+    },
+    {
+      "login": "iIshigaami",
+      "id": 357278212,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-18T21:48:00Z",
+      "repos": [
+        "md2html"
+      ],
+      "merges": [
+        {
+          "repo": "md2html",
+          "number": 11,
+          "title": "docs: add npm registry install, URL scheme allowlist, and tel: test",
+          "url": "https://github.com/flisk-sh/md2html/pull/11",
+          "mergedAt": "2026-11-18T21:48:00Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/iishigaami-357278212/"
+    },
+    {
+      "login": "Sravan1011",
+      "id": 81159574,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-18T23:02:26Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4666,
+          "title": "fix(release): call publish-mcp-registry via workflow_call to fix sile…",
+          "url": "https://github.com/flisk-sh/flisk/pull/4666",
+          "mergedAt": "2026-11-18T23:02:26Z"
+        }
+      ],
+      "seat": 26,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/sravan1011-81159574/"
+    },
+    {
+      "login": "HiZhenyu",
+      "id": 18166898,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-20T22:01:05Z",
+      "repos": [
+        "host"
+      ],
+      "merges": [
+        {
+          "repo": "host",
+          "number": 72,
+          "title": "Document local development and deployment",
+          "url": "https://github.com/flisk-sh/host/pull/72",
+          "mergedAt": "2026-11-20T22:01:05Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/hizhenyu-18166898/"
+    },
+    {
+      "login": "Edward-Ren",
+      "id": 132810020,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-22T00:35:38Z",
+      "repos": [
+        "chat"
+      ],
+      "merges": [
+        {
+          "repo": "chat",
+          "number": 330,
+          "title": "chore: add missing package metadata",
+          "url": "https://github.com/flisk-sh/chat/pull/330",
+          "mergedAt": "2026-11-22T00:35:38Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/edward-ren-132810020/"
+    },
+    {
+      "login": "vidhua7",
+      "id": 228157239,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-22T19:40:43Z",
+      "repos": [
+        "flisk"
+      ],
+      "merges": [
+        {
+          "repo": "flisk",
+          "number": 4634,
+          "title": "fix(cli): preserve existing resource type and port",
+          "url": "https://github.com/flisk-sh/flisk/pull/4634",
+          "mergedAt": "2026-11-22T19:40:43Z"
+        }
+      ],
+      "seat": 29,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/vidhua7-228157239/"
+    },
+    {
+      "login": "veereshovelab",
+      "id": 211399672,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-22T21:19:23Z",
+      "repos": [
+        "login"
+      ],
+      "merges": [
+        {
+          "repo": "login",
+          "number": 21,
+          "title": "fix: return 405 for unsupported homepage methods",
+          "url": "https://github.com/flisk-sh/login/pull/21",
+          "mergedAt": "2026-11-22T21:19:23Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/veereshovelab-211399672/"
+    },
+    {
+      "login": "ashenthefox",
+      "id": 302695896,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-22T21:22:48Z",
+      "repos": [
+        "flisk-tools"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-tools",
+          "number": 55,
+          "title": "perf(404): return a compact not-found page",
+          "url": "https://github.com/flisk-sh/flisk-tools/pull/55",
+          "mergedAt": "2026-11-22T21:22:48Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/ashenthefox-302695896/"
+    },
+    {
+      "login": "Archanachaurasiya30",
+      "id": 184891604,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-22T22:09:04Z",
+      "repos": [
+        "flisk-tools"
+      ],
+      "merges": [
+        {
+          "repo": "flisk-tools",
+          "number": 60,
+          "title": "fix: correct Dependabot Docker directory",
+          "url": "https://github.com/flisk-sh/flisk-tools/pull/60",
+          "mergedAt": "2026-11-22T22:09:04Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/archanachaurasiya30-184891604/"
+    },
+    {
+      "login": "swpswpswp",
+      "id": 92917377,
+      "prs": 1,
+      "issues": 1,
+      "rank": null,
+      "first": "2026-11-22T22:09:56Z",
+      "repos": [
+        "roadmap"
+      ],
+      "merges": [
+        {
+          "repo": "roadmap",
+          "number": 44,
+          "title": "Use confirmed content dates in sitemap lastmod",
+          "url": "https://github.com/flisk-sh/roadmap/pull/44",
+          "mergedAt": "2026-11-22T22:09:56Z"
+        }
+      ],
+      "seat": null,
+      "tier": "Contributor",
+      "belt": null,
+      "page": "https://badges.flisk.si/swpswpswp-92917377/"
+    }
+  ]
+}
