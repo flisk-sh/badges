@@ -165,9 +165,24 @@ export function parseSeats(body) {
     .map((seat) => seat.github && !seat.revoked ? { n: seat.n, github: seat.github } : { n: seat.n });
 }
 
-export function attachSeats(people, seats) {
-  const byLogin = new Map(seats.filter((seat) => seat.github).map((seat) => [seat.github.toLowerCase(), seat.n]));
-  return people.map((p) => ({ ...p, seat: byLogin.get(p.login.toLowerCase()) ?? null }));
+export function attachSeats(people, seats, record) {
+  const unclaimed = new Map(seats.filter((seat) => seat.github).map((seat) => [seat.n, seat.github.toLowerCase()]));
+  const byId = new Map();
+  // A saved seat follows the account id, so a rename keeps it. It applies only while the
+  // list still names the saved or the current login for that number.
+  const savedSeats = new Map((record?.people ?? []).filter((p) => Number.isInteger(p.seat)).map((p) => [p.id, p]));
+  for (const person of people) {
+    const saved = savedSeats.get(person.id);
+    if (!saved) continue;
+    const listed = unclaimed.get(saved.seat);
+    if (listed === saved.login.toLowerCase() || listed === person.login.toLowerCase()) {
+      byId.set(person.id, saved.seat);
+      // Taken: whoever picks up the old login must not get this seat too.
+      unclaimed.delete(saved.seat);
+    }
+  }
+  const byLogin = new Map([...unclaimed].map(([n, login]) => [login, n]));
+  return people.map((p) => ({ ...p, seat: byId.get(p.id) ?? byLogin.get(p.login.toLowerCase()) ?? null }));
 }
 
 // The time a saved record was built, from its "2026-11-24 22:46 UTC" stamp.
@@ -260,6 +275,6 @@ export async function collect({ client, org, maintainers, optout, registry, reco
   return {
     repos: record ? [...new Set([...record.repos, ...repos])].sort(byName) : repos,
     seats,
-    people: attachSeats(people, seats),
+    people: attachSeats(people, seats, record),
   };
 }
